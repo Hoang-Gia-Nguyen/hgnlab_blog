@@ -1,0 +1,73 @@
+# The URL the site will be built for
+base_url = "https://blog.hgnlab.org"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+theme = "linkita"
+
+taxonomies = [
+    { name = "categories", feed = true, paginate_by = 5},
+    { name = "tags", feed = true, paginate_by = 5},
+]
+
+title = "HgN Lab"
+author = "hgn"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra.menus]
+menu_name = [
+  {url = "$BASE_URL/categories", name = "Categories"},
+  {url = "$BASE_URL/tags/", name = "Tags"},
+  {url = "$BASE_URL/pages/about/", name = "About"},
+]
+
+[extra]
+# Put all your custom variables here
+header_menu_name = "menu_name"
+
+# Replace `your_username` with your username.
+[extra.profiles.hgn]
+# The URL of avatar.
+# (type: string; no default value;)
+avatar_url = "icons/lab-svgrepo-com.svg"
+
+# A description of what is in the avatar.
+# (type: string; no default value;)
+avatar_alt = ""
+
+# Invert avatar color in dark mode.
+# (type: boolean; default value: `false`;)
+avatar_invert = true
+
+# Profile name for all languages.
+# (type: string; default value: the username;)
+name = "Hoàng Gia Nguyên"
+
+# Profile bio for all languages.
+# (type: string; supports markdown; no default value;)
+bio = "Experienced software test engineer (7+ years) who is now exploring the world of self-hosting. This blog documents my journey building and managing my own servers, sharing tips and learnings along the way. Let's connect!"
+
+# Profile email.
+# (type: string; no default value;)
+email = "hgnguyen37@gmail.com"
+
+# Profile website.
+# (type: string; no default value;)
+# url = ""
+
+# Social icons.
+# The `name` should be the file name of `static/icons/*.svg` or the icon name of https://simpleicons.org/
+# The `url` supports `$BASE_URL`.
+# (type: array of tables; no default value;)
+social = [
+    { name = "linkedin", url = "https://www.linkedin.com/in/hhggnn/" },
+    { name = "rss", url = "$BASE_URL/atom.xml" },
+]
