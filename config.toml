@@ -32,6 +32,7 @@ menu_name = [
 [extra]
 # Put all your custom variables here
 header_menu_name = "menu_name"
+post_navigation = "reversed"
 
 # Replace `your_username` with your username.
 [extra.profiles.hgn]

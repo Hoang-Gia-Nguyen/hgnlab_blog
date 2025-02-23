@@ -4,6 +4,7 @@ date = 2025-02-14
 authors = ["hgn"]
 [taxonomies]
 categories = ["Public Speaking"]
+tags = ["softskill"]
 [extra]
 +++
 This document summarizes key takeaways from our internal public speaking training.  It's intended for personal review and reinforcement.
@@ -41,5 +42,4 @@ It's important to distinguish between your message and your content.  While rela
 
 A clear message is essential.  Without a strong message, your content, no matter how well-researched, will lack focus and impact.  ***Always start by defining your message before developing your content.***
 
----
-# Next lesson: [Public Speaking - Delivery](@/pages/publicspeaking/publicspeaking_delivery.md)
+Next lesson: [Public Speaking - Delivery](@/pages/about.md)

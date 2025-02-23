@@ -4,6 +4,7 @@ date = 2025-02-15
 authors = ["hgn"]
 [taxonomies]
 categories = ["Public Speaking"]
+tags = ["softskill"]
 [extra]
 +++
 This document summarizes key takeaways from our internal public speaking training.  It's intended for personal review and reinforcement.
