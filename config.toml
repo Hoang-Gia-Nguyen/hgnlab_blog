@@ -1,21 +1,11 @@
 # The URL the site will be built for
 base_url = "https://blog.hgnlab.org"
+default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 theme = "linkita"
-
-taxonomies = [
-    { name = "categories", feed = true, paginate_by = 5},
-    { name = "tags", feed = true, paginate_by = 5},
-]
-
-title = "HgN Lab"
-author = "hgn"
-generate_feeds = true
-feed_filenames = ["atom.xml"]
-build_search_index = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -71,4 +61,26 @@ email = "hgnguyen37@gmail.com"
 social = [
     { name = "linkedin", url = "https://www.linkedin.com/in/hhggnn/" },
     { name = "rss", url = "$BASE_URL/atom.xml" },
+]
+
+[languages.en]
+title = "HgN Lab"
+description = "Experienced software test engineer (7+ years) who is now exploring the world of self-hosting. This blog documents my journey building and managing my own servers, sharing tips and learnings along the way. Let's connect!"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+build_search_index = true
+taxonomies = [
+    { name = "categories", feed = true, paginate_by = 5},
+    { name = "tags", feed = true, paginate_by = 5},
+]
+
+[languages.vi]
+title = "Phòng thí nghiệm HgN"
+description = "Kỹ sư kiểm thử phần mềm giàu kinh nghiệm (7+ năm) hiện đang khám phá thế giới tự lưu trữ. Blog này ghi lại hành trình xây dựng và quản lý máy chủ của riêng tôi, chia sẻ các mẹo và bài học kinh nghiệm. Hãy kết nối!"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+build_search_index = true
+taxonomies = [
+    { name = "categories", feed = true, paginate_by = 5},
+    { name = "tags", feed = true, paginate_by = 5},
 ]
