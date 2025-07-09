@@ -6,6 +6,10 @@ authors = ["hgn"]
 [taxonomies]
 categories = ["Technology"]
 tags = ["self-hosting", "hobby"]
+
+[extra]
+cover.image = "images/self-hosting-banner.png"
+cover.alt = "A banner image for the self-hosting article."
 +++
 
 ## Tự host (Self-Hosting) là gì?
