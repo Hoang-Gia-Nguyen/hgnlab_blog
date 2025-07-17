@@ -5,7 +5,7 @@ draft = false
 description = "Move from theory to practice with this guide to building your first homelab. I'll show you how I use Docker to run AdGuard Home, a powerful network-wide ad-blocker, and how you can get started with your own hardware."
 [taxonomies]
 categories = ["Technology"]
-tags = ["self-hosting", "homelab", "tutorial", "docker"]
+tags = ["self-hosting", "homelab", "docker"]
 
 [extra]
 cover.image = "images/self-hosting-adguard.png"
