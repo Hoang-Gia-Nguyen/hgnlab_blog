@@ -44,7 +44,7 @@ name = "Hoàng Gia Nguyên"
 
 # Profile bio for all languages.
 # (type: string; supports markdown; no default value;)
-bio = "Experienced software test engineer (7+ years) who is now exploring the world of self-hosting and AI. This blog documents my journey building and managing my own servers, sharing tips and learnings along the way. Let's connect!"
+bio = "Experienced software test engineer (7+ years) who is now exploring the world of self-hosting and AI. This blog documents my journey building and managing my own server and applications, sharing tips and learnings along the way. Let's connect!"
 
 # Profile email.
 # (type: string; no default value;)
