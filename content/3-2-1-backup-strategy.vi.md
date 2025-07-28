@@ -9,7 +9,7 @@ categories = ["Self-hosting"]
 tags = ["backup", "data-protection", "homelab"]
 
 [extra]
-cover.image = "/images/cover-3-2-1-backup.png"
+cover.image = "images/self-hosting-3-2-1-backup-cover.png"
 cover.alt = "Self-Hosting 3-2-1 Backup Strategy Cover"
 +++
 

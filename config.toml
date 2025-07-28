@@ -28,7 +28,7 @@ post_navigation = "reversed"
 [extra.profiles.hgn]
 # The URL of avatar.
 # (type: string; no default value;)
-avatar_url = "icons/lab-svgrepo-com.svg"
+avatar_url = "icons/favico.svg"
 
 # A description of what is in the avatar.
 # (type: string; no default value;)

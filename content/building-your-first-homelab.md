@@ -8,7 +8,7 @@ categories = ["Technology"]
 tags = ["self-hosting", "homelab", "docker"]
 
 [extra]
-cover.image = "images/self-hosting-adguard.png"
+cover.image = "images/self-hosting-adguard-home-cover.png"
 cover.alt = "A clean and modern desk setup representing a homelab."
 +++
 

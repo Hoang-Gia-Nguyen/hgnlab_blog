@@ -6,7 +6,7 @@ authors = ["HGN"]
 [taxonomies]
 categories = ["Technology", "AI"]
 [extra]
-cover.image = "images/vibe_coding_banner.png"
+cover.image = "images/technology-vibe-coding-cover.png"
 cover.alt = "Vibe Coding Cover Image"
 +++
 

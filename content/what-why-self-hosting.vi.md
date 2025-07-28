@@ -8,7 +8,7 @@ categories = ["Technology"]
 tags = ["self-hosting", "hobby"]
 
 [extra]
-cover.image = "images/self-hosting-banner.png"
+cover.image = "images/self-hosting-general-banner.png"
 cover.alt = "Self-Hosting General Banner"
 +++
 

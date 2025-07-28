@@ -8,7 +8,7 @@ categories = ["Technology"]
 tags = ["self-hosting", "homelab"]
 
 [extra]
-cover.image = "images/cover-immich-introduction.png"
+cover.image = "images/self-hosting-immich-introduction-cover.png"
 cover.alt = "Immich Introduction"
 +++
 

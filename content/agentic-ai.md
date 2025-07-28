@@ -8,7 +8,7 @@ description = "From writing boilerplate code to debugging complex issues, see ho
 categories = ["AI"]
 
 [extra]
-cover.image = "images/cover-agentic-ai.png"
+cover.image = "images/ai-agentic-ai-cover.png"
 cover.alt = "AI Agentic AI cover image"
 +++
 

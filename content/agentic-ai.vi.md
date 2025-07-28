@@ -8,7 +8,7 @@ description = "Từ việc viết những đoạn code lặp đi lặp lại đ�
 categories = ["AI"]
 
 [extra]
-cover.image = "images/cover-agentic-ai.png"
+cover.image = "images/ai-agentic-ai-cover.png"
 cover.alt = "AI Agentic AI cover image"
 +++
 
