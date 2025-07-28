@@ -9,7 +9,7 @@ tags = ["self-hosting", "homelab"]
 
 [extra]
 cover.image = "images/cover-immich-introduction.png"
-cover.alt = "Giới thiệu Immich"
+cover.alt = "Immich Introduction Cover Image"
 +++
 
 ## Immich là gì?
@@ -20,7 +20,7 @@ Dù các dịch vụ "trên mây" như Google Photos là một chỗ backup off-
 
 Immich là một giải pháp sao lưu ảnh và video mã nguồn mở, do bạn tự host, cho phép bạn tạo ra một bản sao cục bộ thứ hai cực kỳ quan trọng cho kho báu kỷ niệm của mình, ngay trên máy chủ tại nhà bạn. Nó chính là mảnh ghép hoàn hảo cho quy tắc 3-2-1, cho bạn một bản sao tại nhà, truy cập vèo vèo mọi lúc. Không chỉ để backup, Immich còn là một lựa chọn thay thế xịn sò cho Google Photos, giúp bạn toàn quyền kiểm soát và giữ riêng tư cho dữ liệu của mình.
 
-![Immich logo](/images/ggphoto-immich.png)
+![Immich logo](/images/self-hosting-immich-google-photos-import.png)
 
 ## Mấy tính năng hay ho của Immich
 

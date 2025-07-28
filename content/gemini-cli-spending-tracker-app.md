@@ -6,7 +6,6 @@ taxonomies:
   categories:
     - "Technology"
     - "AI"
-    - "Developer Tools"
   tags:
     - "Gemini CLI"
 ---
@@ -72,7 +71,7 @@ There were only a few cases where there were errors when deploying, but I was ab
 ![Add new expense](/images/add_new_expense.png)
 ![Expense list](/images/detail_expense_list.png)
 ![Category budget info](/images/category_budget_info.png)
-![Budget graph](/images/budget_graph.png)
+![Budget graph](/images/ai-spending-tracker-budget-graph.png)
 
 ## My thoughts
 - Gemini CLI is an assistant, not just a chatbot. It feels like you've hired a junior assistant to do the work for you (researching documents, writing code, editing files, cleaning up, etc...), while you focus on direction, building requirements, giving specific instructions, reviewing the assistant's results, and making the final decision.

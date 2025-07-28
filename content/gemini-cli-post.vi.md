@@ -3,7 +3,7 @@ title = "Giới thiệu Gemini CLI: Trợ thủ AI mới của bạn"
 date = 2025-07-01
 description = "Gemini CLI, một người bạn đồng hành AI cho terminal của bạn."
 [taxonomies]
-categories = ["Technology", "AI", "Developer Tools"]
+categories = ["Technology", "AI"]
 +++
 
 Bạn đã bao giờ cảm thấy dòng lệnh của mình hơi... cô đơn trên chặng đường lập trình, học hỏi? 

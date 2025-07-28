@@ -6,7 +6,6 @@ taxonomies:
   categories:
     - "Technology"
     - "AI"
-    - "Developer Tools"
   tags:
     - "Gemini CLI"
 ---
@@ -73,7 +72,7 @@ Chỉ xuất hiện một số trường hợp có lỗi khi deploy, tuy nhiên 
 ![Giao diện thêm chi tiêu](/images/add_new_expense.png)
 ![Giao diện danh sách chi tiêu](/images/detail_expense_list.png)
 ![Giao diện thông tin chi tiêu theo danh mục](/images/category_budget_info.png)
-![Giao diện đồ thị](/images/budget_graph.png)
+![Giao diện đồ thị](/images/ai-spending-tracker-budget-graph.png)
 
 ## Cảm nhận
 - Gemini CLI là một trợ lý, không đơn thuần là một chat bot. Cảm giác giống như bạn thuê được một trợ lý junior để thực thi công việc cho bạn (nghiên cứu tài liệu, viết code, sửa file, quét dọn, etc...), còn bạn tập trung vào định hướng, xây dựng requirements, đưa ra hướng dẫn cụ thể, review kết quả của trợ lý và đưa ra quyết định cuối cùng.

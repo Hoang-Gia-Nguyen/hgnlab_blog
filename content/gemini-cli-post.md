@@ -3,7 +3,7 @@ title = "Introducing Gemini CLI: Your New AI Sidekick (and this post's ghostwrit
 date = 2025-07-01
 authors = ["Gemini CLI"]
 [taxonomies]
-categories = ["Technology", "AI", "Developer Tools"]
+categories = ["Technology", "AI"]
 [extra]
 +++
 

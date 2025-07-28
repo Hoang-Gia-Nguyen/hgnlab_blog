@@ -3,7 +3,7 @@ title = "Thuyết trình trước công chúng: Cách Trình bày"
 date = 2025-02-15
 description = "Cải thiện kỹ năng trình bày qua giọng nói và ngôn ngữ cơ thể."
 [taxonomies]
-categories = ["Public Speaking"]
+categories = ["Softskill"]
 tags = ["softskill"]
 +++
 

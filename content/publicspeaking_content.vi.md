@@ -3,7 +3,7 @@ title = "Thuyết trình trước công chúng: Chuẩn bị Nội dung"
 date = 2025-02-23
 description = "Hướng dẫn chuẩn bị nội dung cho một bài thuyết trình hiệu quả."
 [taxonomies]
-categories = ["Public Speaking"]
+categories = ["Softskill"]
 tags = ["softskill"]
 +++
 

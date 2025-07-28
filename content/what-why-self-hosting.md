@@ -9,7 +9,7 @@ tags = ["self-hosting", "hobby"]
 
 [extra]
 cover.image = "images/self-hosting-banner.png"
-cover.alt = "A banner image for the self-hosting article."
+cover.alt = "Self-Hosting General Banner"
 +++
 
 ## What is Self-Hosting?

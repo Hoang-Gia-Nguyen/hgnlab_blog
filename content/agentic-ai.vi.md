@@ -9,7 +9,7 @@ categories = ["AI"]
 
 [extra]
 cover.image = "images/cover-agentic-ai.png"
-cover.alt = "A cool vibe coding banner"
+cover.alt = "AI Agentic AI cover image"
 +++
 
 Có bao giờ bạn ước mình có thể biến một câu prompt đơn giản thành một ứng dụng hoàn chỉnh chưa? Hay có một AI không chỉ gợi ý code, mà còn thực sự viết, test và debug cho bạn? Đây không còn là chuyện khoa học viễn tưởng nữa. Đó chính là sức mạnh của **Agentic AI**.

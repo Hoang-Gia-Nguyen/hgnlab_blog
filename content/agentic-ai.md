@@ -9,7 +9,7 @@ categories = ["AI"]
 
 [extra]
 cover.image = "images/cover-agentic-ai.png"
-cover.alt = "A cool vibe coding banner"
+cover.alt = "AI Agentic AI cover image"
 +++
 
 Ever wished you could turn a simple prompt into a fully functional app? Or have an AI that doesn't just suggest code, but actually writes, tests, and debugs it for you? That's not science fiction anymore. It's the power of **Agentic AI**.

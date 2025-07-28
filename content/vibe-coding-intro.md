@@ -4,10 +4,10 @@ date = 2025-07-17
 description = "Discover Vibe Coding, a creative programming method based on 'feel' and the help of AI to quickly turn ideas into products."
 authors = ["HGN"]
 [taxonomies]
-categories = ["Technology", "AI", "Software Development"]
+categories = ["Technology", "AI"]
 [extra]
 cover.image = "images/vibe_coding_banner.png"
-cover.alt = "A banner image for the vibe-coding article."
+cover.alt = "Vibe Coding Cover Image"
 +++
 
 You may have heard the term "Vibe Coding" being thrown around a lot lately. It's been popping up in developer circles, on social media, and in hushed tones during code reviews. But what is it, exactly? Is it a new methodology? Or is it just a fleeting trend?

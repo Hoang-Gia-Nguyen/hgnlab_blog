@@ -3,7 +3,7 @@ title = "Public speaking - Content"
 date = 2025-02-23
 authors = ["hgn"]
 [taxonomies]
-categories = ["Public Speaking"]
+categories = ["Softskill"]
 tags = ["softskill"]
 [extra]
 +++

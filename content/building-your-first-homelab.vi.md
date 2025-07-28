@@ -9,7 +9,7 @@ tags = ["self-hosting", "homelab", "docker"]
 
 [extra]
 cover.image = "images/self-hosting-adguard.png"
-cover.alt = "Một góc làm việc sạch sẽ và hiện đại, đại diện cho một homelab."
+cover.alt = "Homelab setup with AdGuard Home"
 +++
 
 Có thể bạn đã đọc [bài viết trước của mình về "self-hosting là gì và tại sao"](@/what-why-self-hosting.vi.md). Nhưng có một sự khác biệt lớn giữa việc hiểu một khái niệm và thực sự thử nó. Vậy, bạn nên bắt đầu từ đâu?

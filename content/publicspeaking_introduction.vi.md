@@ -3,7 +3,7 @@ title = "Thuyết trình trước công chúng: Giới thiệu"
 date = 2025-02-14
 description = "Những khái niệm cơ bản và cách bắt đầu với kỹ năng thuyết trình trước công chúng."
 [taxonomies]
-categories = ["Public Speaking"]
+categories = ["Softskill"]
 tags = ["softskill"]
 +++
 

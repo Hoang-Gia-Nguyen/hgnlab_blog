@@ -37,7 +37,7 @@ What truly sets Immich apart are its powerful, locally-run AI features that brin
 -   **Object and Scene Detection:** The AI models can identify thousands of objects and scenes in your photos. This allows you to perform powerful searches like "sunset," "beach," "dogs," or "cars" to instantly find the photos you're looking for without any manual tagging.
 -   **Smart Search:** Combine search terms to find exactly what you need. For example, you could search for "photos of [Person's Name] at the beach" to narrow down your results.
 
-![Immich AI Features](/images/demo-immich-ai.png)
+![Immich AI Features](/images/self-hosting-immich-ai-features-demo.png)
 
 ## How to install Immich?
 

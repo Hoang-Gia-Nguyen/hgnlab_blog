@@ -147,7 +147,7 @@ Once your router is using AdGuard Home for DNS, every device that connects to yo
 
 And just like that... silence. The ads are gone. Browse a few websites on your phone or computer; you'll notice the difference immediately. You're not just using the internet, you're starting to *control* it.
 
-![AdGuard Home Interface](/images/screenshot_adguardhome.png)
+![AdGuard Home Interface](/images/self-hosting-adguard-home-interface-screenshot.png)
 
 ---
 
