@@ -4,7 +4,7 @@ date = 2025-07-23
 description = "Discover Immich, the open-source, self-hosted solution that gives you full control over your photo and video backups, serving as a powerful alternative to Google Photos."
 
 [taxonomies]
-categories = ["Technology"]
+categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab"]
 
 [extra]

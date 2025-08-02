@@ -4,7 +4,7 @@ date = 2025-07-23
 description = "Khám phá Immich, giải pháp sao lưu ảnh và video mã nguồn mở, tự host giúp bạn toàn quyền kiểm soát dữ liệu của mình và là một sự thay thế mạnh mẽ cho Google Photos."
 
 [taxonomies]
-categories = ["Technology"]
+categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab"]
 
 [extra]

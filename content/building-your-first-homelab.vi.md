@@ -4,7 +4,7 @@ date = 2025-07-15
 draft = false
 description = "Chuyển từ lý thuyết sang thực hành với hướng dẫn xây dựng homelab đầu tiên. Tôi sẽ chỉ cho bạn cách mình dùng Docker để chạy AdGuard Home, một trình chặn quảng cáo mạnh mẽ cho toàn mạng, và cách bạn có thể bắt đầu với phần cứng của riêng mình."
 [taxonomies]
-categories = ["Technology"]
+categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab", "docker"]
 
 [extra]
