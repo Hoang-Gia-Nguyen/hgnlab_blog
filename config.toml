@@ -1,6 +1,7 @@
 # The URL the site will be built for
 base_url = "https://blog.hgnlab.org"
 default_language = "en"
+build_search_index = true
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -59,8 +60,10 @@ email = "hgnguyen37@gmail.com"
 # The `url` supports `$BASE_URL`.
 # (type: array of tables; no default value;)
 social = [
-    { name = "linkedin", url = "https://www.linkedin.com/in/hhggnn/" },
     { name = "rss", url = "$BASE_URL/atom.xml" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/hhggnn/" },
+    { name = "buymeacoffee", url = "https://buymeacoffee.com/hoang.gia.nguyen" },
+    
 ]
 
 [languages.en]
@@ -68,19 +71,37 @@ title = "HgN Lab"
 description = "Experienced software test engineer (7+ years) who is now exploring the world of self-hosting. This blog documents my journey building and managing my own servers, sharing tips and learnings along the way. Let's connect!"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
-build_search_index = true
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 5},
     { name = "tags", feed = true, paginate_by = 5},
 ]
+
+[search]
+include_title = true
+include_description = false
+include_date = false
+include_path = false
+include_content = true
+index_format = "elasticlunr_javascript"
+output_filenames = ["search_index.js", "search_index.vi.js"]
+output_dir = "search"
 
 [languages.vi]
 title = "Phòng thí nghiệm HgN"
 description = "Kỹ sư kiểm thử phần mềm giàu kinh nghiệm (7+ năm) hiện đang khám phá thế giới tự lưu trữ. Blog này ghi lại hành trình xây dựng và quản lý máy chủ của riêng tôi, chia sẻ các mẹo và bài học kinh nghiệm. Hãy kết nối!"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
-build_search_index = true
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 5},
     { name = "tags", feed = true, paginate_by = 5},
 ]
+
+[extra.translations]
+donation_message_title = { en = "Support My Work!", vi = "Ủng hộ mình nhé!" }
+donation_message_text = { en = """Your support helps me keep the servers running, the code compiling, and the late-night learning sessions fueled.
+
+Thank you for being a part of my journey!""", vi = """Sự ủng hộ của bạn giúp mình duy trì máy chủ, gõ code, và tiếp tục những buổi cày tài liệu xuyên đêm.
+
+Cảm ơn bạn đã là một phần trong hành trình của mình!""" }
+donation_button_text = { en = "Buy Me a Coffee", vi = "Buy Me a Coffee" }
+
