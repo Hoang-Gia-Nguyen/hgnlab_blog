@@ -1,58 +1,58 @@
 +++
-title = "Giới thiệu Immich: Giải pháp thay thế Google Photo"
+title = "Giới thiệu Immich: Giải pháp tự host thay thế Google Photos cho quản lý ảnh riêng tư"
 date = 2025-07-23
-description = "Khám phá Immich, giải pháp sao lưu ảnh và video mã nguồn mở, tự host giúp bạn toàn quyền kiểm soát dữ liệu của mình và là một sự thay thế mạnh mẽ cho Google Photos."
+description = "Khám phá Immich, giải pháp sao lưu ảnh và video mã nguồn mở, tự host giúp bạn toàn quyền kiểm soát dữ liệu của mình và là một sự thay thế mạnh mẽ cho Google Photos với các tính năng quản lý ảnh AI thông minh."
 
 [taxonomies]
 categories = ["Technology", "Self-hosting"]
-tags = ["self-hosting", "homelab"]
+tags = ["self-hosting", "homelab", "immich", "thay-the-google-photos", "sao-luu-anh-rieng-tu", "quan-ly-anh-ai", "quan-ly-anh-ma-nguon-mo"]
 
 [extra]
 cover.image = "images/self-hosting-immich-introduction-cover.png"
 cover.alt = "Immich Introduction Cover Image"
 +++
 
-## Immich là gì?
+## Immich là gì? Giải pháp ảnh tự host của bạn
 
-Hình ảnh và video không chỉ là file, mà còn là cả một bầu trời kỷ niệm. Mất đi thì tiếc hùi hụi. Bạn chắc chắn cần có một chiến lược sao lưu ngon nghẻ, và "tiêu chuẩn vàng" trong làng backup chính là **quy tắc 3-2-1**: giữ ít nhất **ba** bản sao dữ liệu, trên ít nhất **hai** thiết bị khác nhau, và có **một** bản sao được cất ở một nơi khác (off-site).
+Hình ảnh và video không chỉ là file, mà còn là cả một bầu trời kỷ niệm. Mất đi thì tiếc hùi hụi. Bạn chắc chắn cần có một **chiến lược sao lưu ảnh** ngon nghẻ, và "tiêu chuẩn vàng" trong làng backup chính là **quy tắc 3-2-1**: giữ ít nhất **ba** bản sao dữ liệu, trên ít nhất **hai** thiết bị khác nhau, và có **một** bản sao được cất ở một nơi khác (off-site).
 
-Dù các dịch vụ "trên mây" như Google Photos là một chỗ backup off-site tuyệt vời, nhưng nếu chỉ phụ thuộc vào nó thì cũng hơi run. Lỡ một ngày đẹp trời bạn mất quyền truy cập tài khoản, hay dịch vụ đổi chính sách thì sao? Đây chính là lúc Immich vào việc.
+Dù các dịch vụ "trên mây" như Google Photos là một chỗ backup off-site tuyệt vời, nhưng nếu chỉ phụ thuộc vào nó thì cũng hơi run. Lỡ một ngày đẹp trời bạn mất quyền truy cập tài khoản, hay dịch vụ đổi chính sách thì sao? Đây chính là lúc **Immich** vào việc.
 
-Immich là một giải pháp sao lưu ảnh và video mã nguồn mở, do bạn tự host, cho phép bạn tạo ra một bản sao cục bộ thứ hai cực kỳ quan trọng cho kho báu kỷ niệm của mình, ngay trên máy chủ tại nhà bạn. Nó chính là mảnh ghép hoàn hảo cho quy tắc 3-2-1, cho bạn một bản sao tại nhà, truy cập vèo vèo mọi lúc. Không chỉ để backup, Immich còn là một lựa chọn thay thế xịn sò cho Google Photos, giúp bạn toàn quyền kiểm soát và giữ riêng tư cho dữ liệu của mình.
+**Immich** là một **giải pháp sao lưu ảnh và video mã nguồn mở, do bạn tự host**, cho phép bạn tạo ra một bản sao cục bộ thứ hai cực kỳ quan trọng cho kho báu kỷ niệm của mình, ngay trên máy chủ tại nhà bạn. Nó chính là mảnh ghép hoàn hảo cho quy tắc 3-2-1, cho bạn một bản sao tại nhà, truy cập vèo vèo mọi lúc. Không chỉ để backup, **Immich** còn là một lựa chọn **thay thế Google Photos** xịn sò, giúp bạn toàn quyền kiểm soát và giữ riêng tư cho dữ liệu của mình. Đây là **server ảnh cá nhân** của bạn để **sao lưu ảnh riêng tư**.
 
 ![Immich logo](/images/self-hosting-immich-google-photos-import.png)
 
-## Mấy tính năng hay ho của Immich
+## Mấy tính năng hay ho của Immich: Quản lý ảnh toàn diện
 
-Immich không chỉ là một công cụ backup đơn thuần, mà là cả một trình quản lý ảnh đầy đủ đồ chơi. Dưới đây là vài món nổi bật:
+**Immich** không chỉ là một công cụ backup đơn thuần, mà là cả một trình **quản lý ảnh** đầy đủ đồ chơi. Dưới đây là vài món nổi bật cho việc **quản lý hình ảnh** của bạn:
 
 -   **Tự động sao lưu:** Có app trên điện thoại (Android và iOS) tự động backup ảnh và video ngay khi bạn vừa chụp xong.
 -   **Hỗ trợ nhiều người dùng:** Tạo tài khoản riêng cho người thân, bạn bè, mỗi người một thư viện ảnh riêng tư, không lo đụng hàng.
 -   **Album và Chia sẻ:** Gom ảnh vào album và chia sẻ cho người khác qua link công khai. Bạn còn có thể đặt mật khẩu và hẹn giờ cho link tự hủy.
--   **Thông tin ảnh và Bản đồ:** Immich đọc được dữ liệu EXIF của ảnh, từ thông số máy ảnh đến vị trí chụp. Bạn có thể xem lại hành trình của mình trên bản đồ thế giới tương tác.
+-   **Thông tin ảnh và Bản đồ:** **Immich** đọc được dữ liệu EXIF của ảnh, từ thông số máy ảnh đến vị trí chụp. Bạn có thể xem lại hành trình của mình trên bản đồ thế giới tương tác.
 
-### AI "nhà trồng": Phép thuật đích thực
+### AI "nhà trồng": Phép thuật đích thực trong quản lý ảnh AI
 
-Điểm ăn tiền của Immich chính là các tính năng AI mạnh mẽ, chạy ngay tại nhà bạn, giúp thư viện ảnh của bạn sống động y như Google Photos:
+Điểm ăn tiền của **Immich** chính là các tính năng **quản lý ảnh AI** mạnh mẽ, chạy ngay tại nhà bạn, giúp thư viện ảnh của bạn sống động y như Google Photos:
 
--   **Nhận diện khuôn mặt:** Immich tự động tìm và gom nhóm các khuôn mặt trong ảnh. Bạn chỉ cần đặt tên một lần, và bùm, sau này muốn tìm ảnh của ai đó chỉ cần một nốt nhạc.
+-   **Nhận diện khuôn mặt:** **Immich** tự động tìm và gom nhóm các khuôn mặt trong ảnh. Bạn chỉ cần đặt tên một lần, và bùm, sau này muốn tìm ảnh của ai đó chỉ cần một nốt nhạc.
 -   **Nhận diện vật thể và cảnh:** Mấy em AI này nhận ra hàng nghìn thứ trong ảnh, từ "hoàng hôn", "bãi biển", đến "mấy con chó", "xe hơi". Nhờ vậy, bạn có thể tìm ảnh cái rẹt mà không cần phải ngồi tag thủ công.
 -   **Tìm kiếm thông minh:** Kết hợp các từ khóa để tìm chính xác thứ bạn cần. Ví dụ, tìm "ảnh của Gấu ở bãi biển" để ra kết quả ngay và luôn.
 
-![Các tính năng AI của Immich](/images/demo-immich-ai.png)
+![Các tính năng AI của Immich](/images/self-hosting-immich-ai-features-demo.png)
 
-## Cài Immich như thế nào?
+## Cài Immich như thế nào? Hướng dẫn tự host ảnh
 
-Thế giới self-host thay đổi nhanh như chong chóng, các bước cài đặt cũng có thể thay đổi theo. Hướng dẫn bên dưới là một khởi đầu ổn, nhưng tốt nhất bạn nên ghé qua trang tài liệu chính thức để có thông tin mới nhất nhé. Bạn có thể tìm thấy nó ở [trang chủ Immich](https://immich.app).
+Thế giới **phần mềm tự host** thay đổi nhanh như chong chóng, các bước cài đặt cũng có thể thay đổi theo. Hướng dẫn bên dưới là một khởi đầu ổn, nhưng tốt nhất bạn nên ghé qua trang tài liệu chính thức để có thông tin mới nhất nhé. Bạn có thể tìm thấy nó ở [trang chủ Immich](https://immich.app).
 
-Cách ngon nhất để cài Immich là dùng Docker và Docker Compose.
+Cách ngon nhất để cài **Immich** là dùng Docker và Docker Compose, biến nó thành một **giải pháp ảnh tự làm** tuyệt vời.
 
-### Cần chuẩn bị gì?
+### Cần chuẩn bị gì cho Server Ảnh của bạn?
 
 -   Một máy chủ đã cài sẵn Docker và Docker Compose.
 -   Một user có quyền chạy lệnh Docker.
 
-### Các bước cài đặt
+### Các bước cài đặt Immich
 
 1.  **Tạo thư mục cho Immich:**
     ```bash
@@ -79,14 +79,14 @@ Cách ngon nhất để cài Immich là dùng Docker và Docker Compose.
     docker-compose up -d
     ```
 
-    Lệnh này sẽ tải về các image cần thiết và cho dàn container Immich chạy ngầm.
+    Lệnh này sẽ tải về các image cần thiết và cho dàn container **Immich** chạy ngầm.
 
 6.  **Truy cập Immich:**
-    Giờ thì bạn có thể vào Immich qua địa chỉ `http://<IP-máy-chủ-của-bạn>:2283`. Lần đầu vào, bạn sẽ được yêu cầu tạo tài khoản admin.
+    Giờ thì bạn có thể vào **Immich** qua địa chỉ `http://<IP-máy-chủ-của-bạn>:2283`. Lần đầu vào, bạn sẽ được yêu cầu tạo tài khoản admin.
 
-## Cách "lùa" ảnh từ Google Photos về?
+## Cách "lùa" ảnh từ Google Photos về? Di chuyển sang sao lưu ảnh riêng tư
 
-Cách phổ biến nhất để "di cư" khỏi Google Photos là dùng Google Takeout.
+Cách phổ biến nhất để "di cư" khỏi Google Photos là dùng Google Takeout. Đây là một bước quan trọng để có được **sao lưu ảnh riêng tư**.
 
 1.  **Yêu cầu Google Takeout:**
     -   Vào trang [Google Takeout](https://takeout.google.com/).
@@ -95,15 +95,15 @@ Cách phổ biến nhất để "di cư" khỏi Google Photos là dùng Google T
     -   Ngồi chờ email từ Google gửi link tải về.
 
 2.  **Nhập vào Immich:**
-    Sau khi tải về và giải nén đống file từ Google Takeout, bạn có vài cách để nhập vào Immich:
+    Sau khi tải về và giải nén đống file từ Google Takeout, bạn có vài cách để nhập vào **Immich**:
 
-    -   **Giao diện web:** Kéo thả file thẳng vào web Immich. Cách này hợp với số lượng file ít ít.
-    -   **Immich CLI:** Với thư viện ảnh khổng lồ, dùng Immich CLI sẽ ổn định hơn. Bạn có thể chạy nó ngay trên máy chủ chứa file ảnh. Xem thêm thông tin về CLI trong tài liệu chính thức của Immich nhé.
+    -   **Giao diện web:** Kéo thả file thẳng vào web **Immich**. Cách này hợp với số lượng file ít ít.
+    -   **Immich CLI:** Với thư viện ảnh khổng lồ, dùng **Immich CLI** sẽ ổn định hơn. Bạn có thể chạy nó ngay trên máy chủ chứa file ảnh. Xem thêm thông tin về CLI trong tài liệu chính thức của **Immich** nhé.
     -   **[`immich-go`](https://github.com/simulot/immich-go):** Đây là một công cụ dòng lệnh bên thứ ba rất được ưa chuộng để nhập từ Google Takeout. Nó có mấy trò hay ho như tự tạo album dựa trên cấu trúc thư mục của Google Takeout.
 
-## Cách "lùa" ảnh từ iCloud về?
+## Cách "lùa" ảnh từ iCloud về? Đảm bảo lưu trữ ảnh cục bộ của bạn
 
-Với anh em nhà Táo, bước đầu tiên là phải lấy được ảnh ra khỏi iCloud đã. Cách triệt để nhất là yêu cầu Apple cho tải về toàn bộ dữ liệu.
+Với anh em nhà Táo, bước đầu tiên là phải lấy được ảnh ra khỏi iCloud đã. Cách triệt để nhất là yêu cầu Apple cho tải về toàn bộ dữ liệu. Điều này rất quan trọng cho việc **lưu trữ ảnh cục bộ**.
 
 1.  **Yêu cầu dữ liệu từ Apple:**
     -   Vào cổng Dữ liệu và Quyền riêng tư của Apple ở [privacy.apple.com](https://privacy.apple.com/).
@@ -118,8 +118,8 @@ Với anh em nhà Táo, bước đầu tiên là phải lấy được ảnh ra 
     -   **Giao diện web:** Ngon cho số lượng ảnh nhỏ.
     -   **Immich CLI hoặc [`immich-go`](https://github.com/simulot/immich-go):** Cực kỳ khuyến khích cho thư viện lớn để đảm bảo quá trình nhập mượt mà và đáng tin cậy.
 
-Bài này chỉ là lướt sơ qua về Immich thôi. Trong các bài sau, mình sẽ vọc vạch sâu hơn các tính năng của nó và khám phá nhiều chủ đề hay ho hơn.
+Bài này chỉ là lướt sơ qua về **Immich**, **giải pháp ảnh tự host** mới của bạn thôi. Trong các bài sau, mình sẽ vọc vạch sâu hơn các tính năng của nó và khám phá nhiều chủ đề hay ho hơn.
 
-## Đôi lời về việc ủng hộ Immich
+## Đôi lời về việc ủng hộ Immich: Một dự án quản lý ảnh mã nguồn mở
 
-Immich là một dự án mã nguồn mở và miễn phí, được xây dựng bởi một cộng đồng đầy nhiệt huyết. Bạn có thể thấy nút "Buy me a coffee" hay link donate đâu đó trong app. Cần phải hiểu rõ rằng đây chỉ là một cách để bạn bày tỏ sự cảm kích và ủng hộ các lập trình viên. Việc donate không mở khóa thêm tính năng nào cả; mọi thứ đều có sẵn cho tất cả mọi người ngay từ đầu. Nếu bạn thấy Immich hữu ích, hãy cân nhắc ủng hộ để dự án tiếp tục phát triển nhé.
+**Immich** là một dự án **quản lý ảnh mã nguồn mở** và miễn phí, được xây dựng bởi một cộng đồng đầy nhiệt huyết. Bạn có thể thấy nút "Buy me a coffee" hay link donate đâu đó trong app. Cần phải hiểu rõ rằng đây chỉ là một cách để bạn bày tỏ sự cảm kích và ủng hộ các lập trình viên. Việc donate không mở khóa thêm tính năng nào cả; mọi thứ đều có sẵn cho tất cả mọi người ngay từ đầu. Nếu bạn thấy **Immich** hữu ích, hãy cân nhắc ủng hộ để dự án tiếp tục phát triển nhé.

@@ -1,52 +1,59 @@
 ---
 title: "I used Gemini CLI to create a spending tracker app in just 2 hours"
 date: 2025-07-04
-description: "A fun project that helped me explore Gemini CLI and address some personal needs"
+description: "Discover how I built a personal finance app using Gemini CLI and Cloudflare D1 in just 2 hours. This project explores AI app development, automated expense management, and practical AI for personal finance."
 taxonomies:
   categories:
     - "Technology"
     - "AI"
   tags:
-    - "Gemini CLI"
+    - "Gemini-CLI"
+    - "Spending-Tracker"
+    - "Personal-Finance-App"
+    - "Cloudflare-D1"
+    - "AI-App-Development"
+    - "Expense-Management"
+    - "Automated-Tracking"
+    - "DIY-Finance"
 ---
 
-Disclaimer: This was just a fun project to help me explore Gemini CLI and address some personal needs.
+Disclaimer: This was just a fun project to help me explore **Gemini CLI** and address some personal needs, showcasing **AI app development** in action.
 
-## Application Components
+## Application Components for Your Personal Finance App
 - Cloudflare Pages + Workers: to host the web interface and create REST APIs to interact with the database.
-- Cloudflare D1 Database: to store my spending data for the past year.
+- Cloudflare D1 Database: to store my spending data for the past year. This is a **serverless database** perfect for a **spending tracker**.
 
-## The Process
-### STEP 1: Preparing the data
+## The Process of Building an AI-Powered Finance App
+### STEP 1: Preparing the data for your expense management
 First, I needed to prepare the data. I used to record my daily expenses in a Google Sheet, creating a new file for each month.
 
-With the intention of moving this data to a Cloudflare D1 Database (which is basically a free SQLite database service provided by Cloudflare), I needed to prepare a few things.
+With the intention of moving this data to a **Cloudflare D1 Database** (which is basically a free SQLite database service provided by Cloudflare), I needed to prepare a few things.
 
-First, I downloaded all my Google Sheet expense records as CSV files and put them in a folder. From there, I called Gemini CLI:
+First, I downloaded all my Google Sheet expense records as CSV files and put them in a folder. From there, I called **Gemini CLI**:
 
 ```
 "Check all csv files in folder abc, propose me what should be do to clean data".
 ```
 
-I was very surprised when Gemini CLI was able to list so many suggestions for cleaning the data, such as:
+I was very surprised when **Gemini CLI** was able to list so many suggestions for cleaning the data, such as:
 - Some basic typos in the description.
 - Expenses with amounts (Amount column) that did not match the information in the Description column (usually due to an extra/missing zero during data entry).
 - Rows with unusual Categories that were inconsistent with the majority of other rows.
 
-After making these suggestions, Gemini CLI asked me if I wanted it to directly change the file content, or if I would edit it manually. I was fine with its suggestions, so I agreed to let Gemini CLI fix the data for me.
+After making these suggestions, **Gemini CLI** asked me if I wanted it to directly change the file content, or if I would edit it manually. I was fine with its suggestions, so I agreed to let **Gemini CLI** fix the data for me.
 
-Then I asked Gemini CLI:
+Then I asked **Gemini CLI**:
 
 ```
 "transform all this data to SQL command so that I can push data into SQL data base".
 ```
 
-After a few seconds, Gemini wrote a `csv_to_sql.py` file and asked for permission to execute it with the command `python3 csv_to_sql.py`. I said yes and received a `SummarizeFinance2025.sql` file as output. I copied and pasted this file directly into the Cloudflare D1 Database console, and voila, my database had ~500 rows of spending data.
+After a few seconds, **Gemini CLI** wrote a `csv_to_sql.py` file and asked for permission to execute it with the command `python3 csv_to_sql.py`. I said yes and received a `SummarizeFinance2025.sql` file as output. I copied and pasted this file directly into the **Cloudflare D1 Database** console, and voila, my database had ~500 rows of spending data.
 
-An interesting thing was that when Gemini CLI first tried to run the `csv_to_sql.py` python file, there was an error. However, Gemini CLI thought about how to fix it, fixed it and ran it again, and it still failed. At this point, I saw "Google Search: python error ..." appear in the terminal. After searching, Gemini provided me with some information it had found, tried to fix it again, and this time the python script ran successfully. This whole process was automatic, my job was just to supervise, review when Gemini asked, and decide whether to accept the solution Gemini proposed.
+An interesting thing was that when **Gemini CLI** first tried to run the `csv_to_sql.py` python file, there was an error. However, **Gemini CLI** thought about how to fix it, fixed it and ran it again, and it still failed. At this point, I saw "Google Search: python error ..." appear in the terminal. After searching, **Gemini CLI** provided me with some information it had found, tried to fix it again, and this time the python script ran successfully. This whole process was automatic, my job was just to supervise, review when **Gemini CLI** asked, and decide whether to accept the solution **Gemini CLI** proposed.
 
-### STEP 2: Creating the web-interface and the Cloudflare worker to interact with the D1 Database
-I don't want to go into too much detail here because I basically just ordered Gemini CLI around (and I also forgot to capture the terminal screen at that time).
+### STEP 2: Creating the web-interface and the Cloudflare worker to interact with the D1 Database for your budgeting tool
+I don't want to go into too much detail here because I basically just ordered **Gemini CLI** around (and I also forgot to capture the terminal screen at that time).
 
 ```
 "I want a web interface that I can input date, amount, description, category. Date input is a datepicker which default is current date. Amount shows unit Vietnam dong. Description is free text. Category is a drop down selection. List of category: ..."
@@ -64,21 +71,21 @@ I don't want to go into too much detail here because I basically just ordered Ge
 "I want a total summarize and category-based summarize. I also want a pie-chart to improve visualization."
 ```
 
-The results generated by Gemini CLI were truly surprising as all the html, js, css and worker script files could be run almost immediately.
+The results generated by **Gemini CLI** were truly surprising as all the html, js, css and worker script files could be run almost immediately, demonstrating its capability in **AI app development**.
 
-There were only a few cases where there were errors when deploying, but I was able to find and fix them quickly. But I think if I didn't have enough knowledge, I could still throw this error back into the Gemini CLI terminal and ask it to fix the code.
+There were only a few cases where there were errors when deploying, but I was able to find and fix them quickly. But I think if I didn't have enough knowledge, I could still throw this error back into the **Gemini CLI** terminal and ask it to fix the code.
 
 ![Add new expense](/images/add_new_expense.png)
 ![Expense list](/images/detail_expense_list.png)
 ![Category budget info](/images/category_budget_info.png)
 ![Budget graph](/images/ai-spending-tracker-budget-graph.png)
 
-## My thoughts
-- Gemini CLI is an assistant, not just a chatbot. It feels like you've hired a junior assistant to do the work for you (researching documents, writing code, editing files, cleaning up, etc...), while you focus on direction, building requirements, giving specific instructions, reviewing the assistant's results, and making the final decision.
-- Whether the results of Gemini CLI are to your liking depends heavily on how you give instructions. This is also similar to when you work with a human assistant, so there is nothing to complain about.
-- Gemini CLI is very good at understanding a whole folder of code. It can analyze which file should be placed in which directory, and where to write a new function if one is added.
-- Gemini CLI can gradually understand your working style. When I work in one terminal for a long time, the first few prompts may require a lot of requests and reviews to correct the output of Gemini CLI. However, later on, I can clearly feel that Gemini CLI gives me the output I want without me having to say too much. Currently, I have only observed this phenomenon in very long sessions with Gemini CLI. However, I see in the documentation that there are also instructions for me to load the necessary information, helping Gemini CLI to always work as I want in any session.
-- You should still be the one to review and make the final decision. Every time Gemini CLI wants to perform an action such as editing a file or running a command, it will give you the options "Allow once", "Always allow this action", and "No". I recommend always choosing "Allow once" to be able to review each action of Gemini CLI, because you will always be responsible for the quality of the final product and the final result.
-- You should have strong enough expertise in the problem you are working on with Gemini CLI to be able to give instructions and review the results effectively. Unless you are purposely using this agent to learn about something new.
+## My thoughts on Gemini CLI for Personal Finance
+- **Gemini CLI** is an assistant, not just a chatbot. It feels like you've hired a junior assistant to do the work for you (researching documents, writing code, editing files, cleaning up, etc...), while you focus on direction, building requirements, giving specific instructions, reviewing the assistant's results, and making the final decision. This is **AI-powered finance** in action.
+- Whether the results of **Gemini CLI** are to your liking depends heavily on how you give instructions. This is also similar to when you work with a human assistant, so there is nothing to complain about.
+- **Gemini CLI** is very good at understanding a whole folder of code. It can analyze which file should be placed in which directory, and where to write a new function if one is added.
+- **Gemini CLI** can gradually understand your working style. When I work in one terminal for a long time, the first few prompts may require a lot of requests and reviews to correct the output of **Gemini CLI**. However, later on, I can clearly feel that **Gemini CLI** gives me the output I want without me having to say too much. Currently, I have only observed this phenomenon in very long sessions with **Gemini CLI**. However, I see in the documentation that there are also instructions for me to load the necessary information, helping **Gemini CLI** to always work as I want in any session.
+- You should still be the one to review and make the final decision. Every time **Gemini CLI** wants to perform an action such as editing a file or running a command, it will give you the options "Allow once", "Always allow this action", and "No". I recommend always choosing "Allow once" to be able to review each action of **Gemini CLI**, because you will always be responsible for the quality of the final product and the final result.
+- You should have strong enough expertise in the problem you are working on with **Gemini CLI** to be able to give instructions and review the results effectively. Unless you are purposely using this agent to learn about something new.
 
-> In conclusion, it was a very WOW experience working with Gemini CLI!
+> In conclusion, it was a very WOW experience working with **Gemini CLI** to build this **personal finance app**!
