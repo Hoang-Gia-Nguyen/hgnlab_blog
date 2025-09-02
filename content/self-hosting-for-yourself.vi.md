@@ -1,5 +1,5 @@
 +++
-title = "# Tự Host: Trước Hết Là Cho Chính Bạn"
+title = "Tự Host: Trước Hết Là Cho Chính Bạn"
 date = 2025-09-02
 description = "Một góc nhìn cá nhân về tự host—không phải để cạnh tranh với cloud, mà để giải quyết vấn đề của riêng bạn, học hỏi qua trải nghiệm, và tận hưởng nó như một sở thích."
 authors = ["hgn"]
