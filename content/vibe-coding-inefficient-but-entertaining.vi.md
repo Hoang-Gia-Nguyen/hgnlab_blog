@@ -5,6 +5,9 @@ draft = false
 description = "Một câu chuyện vui về 'Vibe Coding' được lấy cảm hứng từ cuộc đối thoại (có thể là hư cấu) giữa Bill Gates và Linus Torvalds. Cùng mình tìm hiểu tại sao code 'rất bất ổn nhưng mà vui' đôi khi lại là thứ chúng ta cần."
 [taxonomies]
 categories = ["Technology"]
+[extra]
+cover.image = "images/vibe-cover.jpeg"
+cover.alt = "VIBE Introduction"
 +++
 
 Có một giai thoại khá hay ho được lan truyền trên mạng. Chuyện kể rằng tại Bill Gates đã "ngây thơ" hỏi rằng "VIBE" trong cụm từ "Vibe Coding" là viết tắt của cái gì.

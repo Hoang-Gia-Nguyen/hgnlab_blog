@@ -5,6 +5,9 @@ draft = false
 description = "Khám phá hai công cụ terminal giúp tiết kiệm thời gian và sửa lỗi dòng lệnh hiệu quả: autojump và thefuck."
 [taxonomies]
 categories = ["Technology"]
+[extra]
+cover.image = "images/thefuck-cover.png"
+cover.alt = "thefuck Introduction"
 +++
 
 Nếu bạn là lập trình viên, sinh viên, hay đơn giản là người thường xuyên làm việc với terminal, chắc bạn cũng hiểu hiệu suất là yếu tố quan trọng. Tiết kiệm vài giây ở mỗi thao tác nhỏ sẽ cộng lại thành một khoảng thời gian đáng kể, nhưng quan trọng hơn là nó giúp bạn không bị ngắt quãng dòng suy nghĩ. Hôm nay, mình muốn chia sẻ hai công cụ dòng lệnh nhỏ mà có võ đã trở thành một phần không thể thiếu trong công việc hàng ngày của mình: `autojump` và `thefuck`.

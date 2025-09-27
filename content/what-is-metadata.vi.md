@@ -5,6 +5,9 @@ draft = false
 description = "Một lời giải thích đơn giản về metadata trong các tệp máy tính và media, ưu, nhược điểm và các công cụ để quản lý nó."
 [taxonomies]
 categories = ["Technology"]
+[extra]
+cover.image = "images/metadata-cover.png"
+cover.alt = "Metadata Introduction"
 +++
 
 Trong thế giới số, chúng ta luôn được bao quanh bởi dữ liệu. Nhưng bạn đã bao giờ nghe nói về "metadata" chưa? Đó là dữ liệu về dữ liệu của bạn, và nó ở khắp mọi nơi, từ những bức ảnh gia đình cho đến các tài liệu công việc. Hãy cùng mình tìm hiểu xem metadata là gì, tại sao nó hữu ích và tại sao đôi khi bạn lại muốn loại bỏ nó nhé.

@@ -5,6 +5,9 @@ draft = false
 description = "Khám phá Lingarr, công cụ tự động dịch phụ đề bằng cách tích hợp với Sonarr, Radarr và các dịch vụ AI/dịch thuật khác."
 [taxonomies]
 categories = ["Self-hosting"]
+[extra]
+cover.image = "images/lingarr-cover.png"
+cover.alt = "Lingarr Introduction"
 +++
 
 Chắc hẳn anh em nào mê phim ảnh và tự host kho media riêng cũng từng gặp cảnh này: bạn có một bộ phim hay series mới coóng, nhưng tìm mỏi mắt không ra phụ đề tiếng Việt. Ví dụ như mình rất hào hứng muốn xem "Secret of Silent Witch", nhưng ngó qua OpenSubtitles thì chỉ có phụ đề tiếng Đức. Trong khi mình chỉ đọc được tiếng Anh hoặc tiếng Việt, thế là đành ngậm ngùi. Đây là một vấn đề khá phổ biến, đặc biệt với các nội dung mới hoặc không quá nổi tiếng.
@@ -13,9 +16,8 @@ Chắc hẳn anh em nào mê phim ảnh và tự host kho media riêng cũng t�
 
 Và đây là lúc [Lingarr](https://github.com/lingarr-translate/lingarr) xuất hiện như một vị cứu tinh. Nó là một công cụ làm cầu nối giữa các trình quản lý media của bạn (như Sonarr và Radarr) với các dịch vụ dịch thuật, bao gồm cả các mô hình AI mạnh mẽ. Lingarr sẽ quét thư viện của bạn, tìm những phụ đề chưa có ngôn ngữ bạn muốn và tự động dịch chúng.
 
-### Hướng dẫn cài đặt nhanh
-
-Việc cài đặt Lingarr khá đơn giản. Quá trình thiết lập được chia thành một vài khu vực chính:
+### Hướng dẫn setup cơ bản
+Việc thiết lập Lingarr khá đơn giản. Quá trình thiết lập được chia thành một vài khu vực chính:
 
 1.  **Tích hợp (Integration)**: Đây là nơi bạn kết nối Lingarr với Sonarr và Radarr. Bạn sẽ cần cung cấp URL và API key cho các dịch vụ này. (Mình sẽ không đi sâu vào việc cài đặt Sonarr hay Radarr ở đây nhé, vì Lingarr mặc định là bạn đã có sẵn rồi).
 

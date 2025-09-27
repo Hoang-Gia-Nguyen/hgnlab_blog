@@ -5,6 +5,9 @@ draft = false
 description = "Discover Lingarr, a tool that automatically translates subtitles for your media library by integrating with Sonarr, Radarr, and various AI/translation services."
 [taxonomies]
 categories = ["Self-hosting"]
+[extra]
+cover.image = "images/lingarr-cover.png"
+cover.alt = "Lingarr Introduction"
 +++
 
 If you're a media enthusiast with a self-hosted setup, you've probably faced this problem: you get a new movie or TV series, but you can't find subtitles in your native language. For example, I was excited to watch "Secret of Silent Witch," but a quick search on OpenSubtitles only turned up German subtitles. Since I only understand English and Vietnamese, I was out of luck. This is a common headache, especially for newer or less mainstream content.

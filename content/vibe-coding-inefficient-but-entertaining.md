@@ -5,6 +5,9 @@ draft = false
 description = "A humorous take on 'Vibe Coding' inspired by a legendary (and maybe fictional) exchange between Bill Gates and Linus Torvalds. Let's explore why being 'Very Inefficient But Entertaining' is sometimes exactly what we need."
 [taxonomies]
 categories = ["Technology"]
+[extra]
+cover.image = "images/vibe-cover.jpeg"
+cover.alt = "VIBE Introduction"
 +++
 
 There's a fantastic anecdote floating around the internet. The story goes that Bill Gates "innocently" asked what "VIBE" stood for in the term "Vibe Coding."

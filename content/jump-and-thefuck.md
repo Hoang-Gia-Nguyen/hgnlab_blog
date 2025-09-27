@@ -5,6 +5,9 @@ draft = false
 description = "Discover two life-changing terminal tools, jump and thefuck, that will save you countless keystrokes and fix your command-line mistakes."
 [taxonomies]
 categories = ["Technology"]
+[extra]
+cover.image = "images/thefuck-cover.png"
+cover.alt = "thefuck Introduction"
 +++
 
 If you're a software engineer, a student, or just someone who spends a lot of time in the terminal, you know that efficiency is key. Shaving off a few seconds here and there adds up, but more importantly, it keeps you in the flow. Today, I want to share two small but mighty command-line tools that have become indispensable in my daily workflow: `autojump` and `thefuck`.
