@@ -6,7 +6,7 @@ description = "Tại sao các nhà cung cấp AI lại siết chặt giới hạ
 [taxonomies]
 categories = ["AI"]
 [extra]
-cover.image = "images/cover-ai-limits.avif"
+cover.image = "images/cover-ai-limits.png"
 cover.alt = "Biểu đồ hiển thị giới hạn free-tier API ngày càng co lại"
 +++
 

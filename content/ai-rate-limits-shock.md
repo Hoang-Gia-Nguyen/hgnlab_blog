@@ -5,7 +5,7 @@ description = "Why free and low-tier AI API limits have tightened, how it impact
 [taxonomies]
 categories = ["AI"]
 [extra]
-cover.image = "images/cover-ai-limits.avif"
+cover.image = "images/cover-ai-limits.png"
 cover.alt = "Graph showing shrinking free-tier API limits"
 +++
 
