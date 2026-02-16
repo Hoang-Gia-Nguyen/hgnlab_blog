@@ -9,6 +9,9 @@ GEMINI.md
 **/.gemini/GEMINI.md
 .gemini
 
+# Ignore Cline specific files
+.clinerules
+
 # Documentation
 research/
 .aider*
