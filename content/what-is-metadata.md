@@ -12,6 +12,7 @@ cover.alt = "Metadata Introduction"
 
 In the digital world, we're surrounded by data. But have you ever heard of "metadata"? It's the data about your data, and it's everywhere, from your family photos to your work documents. Let's dive into what metadata is, why it's useful, and why you might sometimes want to get rid of it.
 
+
 ### Data vs. Metadata: A Quick Intro
 
 - **Data** is the main content of a file. For example, in a photo, the data is the image itself—the pixels that form the picture of your cat.
