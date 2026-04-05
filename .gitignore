@@ -3,6 +3,7 @@ public/
 
 # Ignore draft folder
 draft/
+@draft/
 
 # Ignore Gemini specific files
 GEMINI.md
