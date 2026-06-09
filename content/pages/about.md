@@ -8,8 +8,8 @@ categories = ["Introduction"]
 +++
 # Hello, World!
 
-Hi everyone, I'm a Senior Software Test Engineer with 7+ years of experience in the automotive industry, specializing in the development of test automation solutions.
+I'm a Senior Software Test Engineer working in software quality assurance.
 
-Lately, I've become increasingly interested in the world of self-hosting and AI.  The idea of taking control of my own data and services, and exploring the capabilities of artificial intelligence, is really appealing.  I'm currently experimenting with setting up various applications and tools on an old laptop that I've repurposed as a home server, and diving into AI projects.  It's a fun and rewarding learning experience!
+Lately, I've been diving into self-hosting and AI — setting up my own home server, exploring AI tools, and learning as I go. This blog is where I document what I learn, share my experiences, and connect with others on the same journey.
 
-I've decided to start this blog as a way to document my self-hosting and AI journey, share what I've learned, and hopefully connect with others who are also exploring this space. I believe that writing is a great way to solidify my understanding of concepts and also helps to share knowledge with the community.  So, consider this my "Hello, World!" to the blogging world.  I'm excited to see where this adventure takes me!
+Consider this my "Hello, World!" to the blogging world!

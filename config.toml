@@ -44,7 +44,7 @@ name = "Hoàng Gia Nguyên"
 
 # Profile bio for all languages.
 # (type: string; supports markdown; no default value;)
-bio = "I'm a hobbyist who is now exploring the world of self-hosting and AI. This blog documents my journey building and managing my own server and applications, sharing tips and learnings along the way. Let's connect!"
+bio = "A software quality assurance engineer exploring the world of self-hosting and AI. This blog documents my journey building and managing my own server and applications, sharing tips and learnings along the way. Let's connect!"
 
 # Profile email.
 # (type: string; no default value;)
@@ -67,7 +67,7 @@ social = [
 
 [languages.en]
 title = "HgN Lab"
-description = "Experienced software test engineer (7+ years) who is now exploring the world of self-hosting. This blog documents my journey building and managing my own servers, sharing tips and learnings along the way. Let's connect!"
+description = "Software quality assurance engineer exploring the world of self-hosting. This blog documents my journey building and managing my own servers, sharing tips and learnings along the way. Let's connect!"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 taxonomies = [
@@ -87,7 +87,7 @@ output_dir = "search"
 
 [languages.vi]
 title = "Phòng thí nghiệm HgN"
-description = "Kỹ sư kiểm thử phần mềm giàu kinh nghiệm (7+ năm) hiện đang khám phá thế giới tự lưu trữ. Blog này ghi lại hành trình xây dựng và quản lý máy chủ của riêng tôi, chia sẻ các mẹo và bài học kinh nghiệm. Hãy kết nối!"
+description = "Kỹ sư đảm bảo chất lượng phần mềm khám phá thế giới tự lưu trữ. Blog này ghi lại hành trình xây dựng và quản lý máy chủ của riêng tôi, chia sẻ các mẹo và bài học kinh nghiệm. Hãy kết nối!"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 taxonomies = [
