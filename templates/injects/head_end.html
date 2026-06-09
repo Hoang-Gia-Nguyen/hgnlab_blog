@@ -56,18 +56,22 @@
   .btn-translations {
     font-size: 0 !important;
     background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline-flex !important;
+    align-items: center !important;
   }
   .btn-translations::after {
     content: attr(data-label);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding: 0.15rem 0.5rem;
+    padding: 0.1rem 0.5rem;
     border-radius: 0.25rem;
     background: var(--color-accent);
     color: #fff;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   /* ── Mobile post card padding ── */
