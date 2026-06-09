@@ -1,0 +1,20 @@
+{%- if page.taxonomies.categories %}
+{%- set bread_crumb_separator = "›" %}
+<nav class="text-sm opacity-60 mb-4 not-prose" aria-label="Breadcrumb">
+  <ol class="flex flex-wrap items-center gap-1.5 list-none !pl-0 !my-0">
+    <li>
+      <a class="no-underline hover:underline" href="{{ get_url(path='/', lang=lang) }}">{{ config.title }}</a>
+    </li>
+    {%- for category in page.taxonomies.categories %}
+    <li class="flex items-center gap-1.5">
+      <span aria-hidden="true" class="opacity-40">{{ bread_crumb_separator }}</span>
+      <a class="no-underline hover:underline" href="{{ get_taxonomy_url(kind='categories', name=category, lang=lang) }}">{{ category }}</a>
+    </li>
+    {%- endfor %}
+    <li class="flex items-center gap-1.5">
+      <span aria-hidden="true" class="opacity-40">{{ bread_crumb_separator }}</span>
+      <span aria-current="page" class="truncate max-w-[200px] inline-block">{{ page.title }}</span>
+    </li>
+  </ol>
+</nav>
+{%- endif %}
