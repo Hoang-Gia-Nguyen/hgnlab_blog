@@ -26,6 +26,7 @@
     font-weight: 600;
   }
 
+  /* ── Post card styles ── */
   .page-card {
     border-bottom: 1px solid var(--color-border);
   }
@@ -39,6 +40,16 @@
   }
   .page-card:hover .page-card-title {
     color: var(--color-accent);
+  }
+
+  /* ── Sticky Table of Contents ── */
+  @media (min-width: 1024px) {
+    article .block-bg:has(details) {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 5rem;
+      z-index: 10;
+    }
   }
 </style>
 
