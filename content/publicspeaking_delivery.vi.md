@@ -4,7 +4,7 @@ date = 2025-02-15
 description = "Cải thiện kỹ năng trình bày của bạn thông qua việc làm chủ giọng nói, ngôn ngữ cơ thể và giao tiếp phi ngôn ngữ, giúp bạn tự tin thuyết trình và thu hút khán giả."
 [taxonomies]
 categories = ["Softskill"]
-tags = ["softskill", "thuyet-trinh-cach-trinh-bay", "giong-noi-thuyet-trinh", "ngon-ngu-co-the-thuyet-trinh", "giao-tiep-phi-ngon-ngu", "tu-tin-thuyet-trinh", "ky-nang-thuyet-trinh"]
+tags = ["softskill", "public-speaking-skills", "presentation-delivery", "vocal-delivery", "body-language-for-presentations", "non-verbal-communication", "confidence-in-public-speaking"]
 +++
 
 Đây là phần tiếp theo trong chuỗi bài về thuyết trình, tập trung vào **cách trình bày (delivery)**. Cách bạn nói và sử dụng cơ thể có thể ảnh hưởng lớn đến hiệu quả của bài thuyết trình.

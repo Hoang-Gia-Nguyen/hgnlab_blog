@@ -2,6 +2,10 @@
 title = "Open source license - Bình dân học vụ"
 date = 2026-05-26
 description = "Nói chuyện tếu táo về các open source license mà anh em hay gặp"
+
+[taxonomies]
+categories = ["Technology"]
+tags = ["open-source", "licensing", "software-licenses", "intellectual-property"]
 +++
 
 # 📜 Bí Kíp Chọn Open Source License "Bình Dân Học Vụ" – Tránh Bẫy Bản Quyền Cho Doanh Nghiệp & Dev

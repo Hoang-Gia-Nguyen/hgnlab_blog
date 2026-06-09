@@ -5,7 +5,7 @@ draft = false
 description = "CPU, RAM, and Disk are the basics. The real 'boss fights' of self-hosting involve proprietary drivers, legacy chips, and hardware acceleration."
 [taxonomies]
 categories = ["Technology"]
-tags = ["Hardware", "Linux", "Jetson Nano", "Self-hosting", "Troubleshooting"]
+tags = ["Hardware", "Linux", "Jetson Nano", "self-hosting", "Troubleshooting"]
 [extra]
 #cover.image = "images/hardware-struggles-#cover.png"
 #cover.alt = "A collection of hardware components, a Jetson Nano, and lines of terminal code."

@@ -5,7 +5,7 @@ description = "Khám phá Vibe Coding, một phương pháp lập trình sáng t
 authors = ["HGN"]
 [taxonomies]
 categories = ["Technology", "AI"]
-tags = ["vibe-coding", "lap-trinh-theo-cam-hung", "phat-trien-phan-mem-voi-ai", "lap-trinh-truc-quan", "quy-trinh-lam-viec-lap-trinh-vien", "tao-mau-nhanh-bang-ai", "ai-va-sang-tao-trong-lap-trinh"]
+tags = ["vibe-coding", "ai-assisted-development", "rapid-prototyping", "creative-programming"]
 [extra]
 #cover.image = "images/technology-vibe-coding-#cover.png"
 #cover.alt = "Vibe Coding Cover Image"

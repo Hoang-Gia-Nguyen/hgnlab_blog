@@ -5,7 +5,7 @@ draft = false
 description = "CPU, RAM hay ổ cứng chỉ là bề nổi. Những thử thách thực sự của dân chơi hệ tự host nằm ở driver độc quyền, chip cũ và khả năng tăng tốc phần cứng."
 [taxonomies]
 categories = ["Technology"]
-tags = ["Hardware", "Linux", "Jetson Nano", "Self-hosting", "Troubleshooting"]
+tags = ["Hardware", "Linux", "Jetson Nano", "self-hosting", "Troubleshooting"]
 [extra]
 #cover.image = "images/hardware-struggles-#cover.png"
 #cover.alt = "Một góc làm việc với Jetson Nano và những dòng code trên màn hình."

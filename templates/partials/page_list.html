@@ -33,6 +33,20 @@
         {%- endfor %}
       </div>
       {%- endif %}
+      {%- if page.taxonomies.tags %}
+      <div class="not-prose mt-1.5 flex flex-wrap gap-1.5">
+        {%- for tag in page.taxonomies.tags %}
+        <a href="{{ get_taxonomy_url(kind='tags', name=tag, lang=lang) }}"
+          class="no-underline text-xs font-medium px-2 py-0.5 rounded-md
+            border border-[var(--color-border-dim)] text-[var(--color-fg)]
+            hover:bg-[var(--color-accent)]/10 hover:border-[var(--color-accent)]
+            hover:text-[var(--color-accent)]
+            dark:text-[var(--color-fg)]
+            dark:hover:bg-[var(--color-accent)]/20
+            transition-colors duration-150">#{{ tag }}</a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
       {%- if not page.summary %}
       {%- set use_summary = false %}
       {%- elif not page.description %}

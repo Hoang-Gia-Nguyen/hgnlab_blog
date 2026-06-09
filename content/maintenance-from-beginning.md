@@ -10,8 +10,8 @@ draft = false
 #cover.alt = "Self-Hosting Isn’t Deployment — Maintenance Is the Real Game"
 
 [taxonomies]
-tags = ["self-host", "devops", "maintenance", "homelab"]
-categories = ["engineering", "self-host"]
+tags = ["self-hosting", "devops", "maintenance", "homelab"]
+categories = ["Self-hosting"]
 +++
 
 

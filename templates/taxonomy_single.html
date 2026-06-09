@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+{% block main %}
+{%- if g_profile is defined %}
+  {%- if paginator is undefined or paginator.current_index == 1 %}
+{% include "partials/profile.html" %}
+  {%- endif %}
+{%- else %}
+<div class="mb-12">
+  {%- set taxonomy_list_url = get_url(path=taxonomy.name, lang=lang) %}
+  <a href="{{ taxonomy_list_url }}" class="text-sm opacity-60 no-underline hover:underline">&larr; {{ m_i18n::get_taxonomy_title(key=taxonomy.name, lk=g_lang_k, d=g_trans_d) }}</a>
+  <h1 class="!mt-2 !mb-2">
+    {%- if taxonomy.name == "tags" %}#{% endif %}{{ term.name }}
+  </h1>
+  <p class="text-sm opacity-60 !my-0">{{ term.pages | length }} {{ m_i18n::tr(key=`common_articles`, lk=g_lang_k, d=g_trans_d) }}</p>
+</div>
+{%- endif %}
+{% include "partials/page_list.html" %}
+{% endblock main %}

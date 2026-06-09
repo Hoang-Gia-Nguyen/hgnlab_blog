@@ -6,7 +6,7 @@ description = "Khám phá cách bạn có thể tự chạy các mô hình ngôn
 
 [taxonomies]
 categories = ["Technology", "Self-hosting", "AI"]
-tags = ["local-llm", "homelab", "ai-rieng-tu", "ai-tu-host", "ollama", "lm-studio", "ai-tren-phan-cung-ca-nhan", "ai-offline"]
+tags = ["local-llm", "homelab", "private-ai", "self-hosted-ai", "ollama", "lm-studio", "ai-on-personal-hardware", "offline-ai"]
 
 [extra]
 #cover.image = "images/local-llm-#cover.png"

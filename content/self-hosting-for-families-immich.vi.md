@@ -7,7 +7,7 @@ description = "Khám phá cách Immich giúp các gia đình quản lý và chia
 
 [taxonomies]
 categories = ["Technology", "Self-hosting"]
-tags = ["self-hosting", "family", "photos", "videos", "immich", "chia-se-anh-gia-dinh-rieng-tu", "thay-the-google-photos-cho-gia-dinh", "server-anh-gia-dinh"]
+tags = ["self-hosting", "family", "photos", "videos", "immich", "private-photo-sharing", "google-photos-alternative-for-families", "home-photo-server"]
 
 [extra]
 #cover.image = "images/self-hosting-immich-introduction-cover2.png"

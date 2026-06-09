@@ -6,7 +6,7 @@ description = "Cùng mình tìm hiểu quy tắc sao lưu 3-2-1 cực kỳ quan 
 
 [taxonomies]
 categories = ["Self-hosting"]
-tags = ["backup", "data-protection", "homelab", "sao-luu-du-lieu", "an-toan-du-lieu"]
+tags = ["backup", "data-protection", "homelab", "data-safety", "offsite-backup"]
 
 [extra]
 #cover.image = "images/self-hosting-3-2-1-backup-#cover.png"

@@ -4,6 +4,12 @@ date = 2025-07-17
 description = "Discover Vibe Coding, a creative programming method based on 'feel' and the help of AI to quickly turn ideas into products."
 authors = ["HGN"]
 [taxonomies]
+categories = ["Technology", "AI"]
+tags = ["vibe-coding", "ai-assisted-development", "rapid-prototyping", "creative-programming"]
+
+[extra]
+#cover.image = "images/technology-vibe-coding-#cover.png"
+#cover.alt = "Vibe Coding Cover Image"
 +++
 title = "Introducing Vibe Coding: Intuitive Programming with AI for Rapid Prototyping"
 date = 2025-07-17

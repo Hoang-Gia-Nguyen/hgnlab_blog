@@ -4,7 +4,7 @@ date = 2025-02-14
 description = "Tìm hiểu những khái niệm cơ bản về thuyết trình trước công chúng, sự khác biệt giữa tự tin và lòng tự trọng, và cách bắt đầu hành trình thuyết trình của bạn một cách hiệu quả."
 [taxonomies]
 categories = ["Softskill"]
-tags = ["softskill", "thuyet-trinh-truoc-cong-chung-gioi-thieu", "thuyet-trinh-la-gi", "cach-bat-dau-thuyet-trinh", "tu-tin-thuyet-trinh", "thong-diep-va-noi-dung-thuyet-trinh"]
+tags = ["softskill"]
 +++
 
 Đây là bài viết mở đầu cho chuỗi bài về **kỹ năng thuyết trình trước công chúng**, dựa trên khóa đào tạo nội bộ tại công ty mình.

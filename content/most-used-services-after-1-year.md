@@ -6,7 +6,7 @@ description = "After a year of running a homelab and a stretch of time where I b
 
 [taxonomies]
 categories = ["Technology", "Self-hosting"]
-tags = ["homelab", "self-hosted", "jellyfin", "immich", "vaultwarden", "ntfy", "uptime-kuma", "restic", "backup", "media-server"]
+tags = ["homelab", "self-hosting", "jellyfin", "immich", "vaultwarden", "ntfy", "uptime-kuma", "restic", "backup", "media-server"]
 
 [extra]
 #cover.image = "images/homelab-one-year-#cover.png"

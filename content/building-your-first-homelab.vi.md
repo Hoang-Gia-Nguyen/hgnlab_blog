@@ -5,7 +5,7 @@ draft = false
 description = "Chuyển từ lý thuyết sang thực hành với hướng dẫn xây dựng homelab đầu tiên. Mình sẽ chỉ cho bạn cách mình dùng Docker để chạy AdGuard Home, một trình chặn quảng cáo mạnh mẽ cho toàn mạng, và cách bạn có thể bắt đầu với phần cứng của riêng mình để tăng cường quyền riêng tư và kiểm soát internet."
 [taxonomies]
 categories = ["Technology", "Self-hosting"]
-tags = ["self-hosting", "homelab", "docker", "adguard-home", "bao-mat-mang", "rieng-tu", "chan-quang-cao"]
+tags = ["self-hosting", "homelab", "docker", "adguard-home", "network-security", "privacy", "ad-blocker"]
 
 [extra]
 #cover.image = "images/self-hosting-adguard-home-#cover.png"

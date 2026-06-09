@@ -2,6 +2,10 @@
 title = "Open source licenses - A No-Nonsense Guide"
 date = 2026-05-26
 description = "A casual and witty breakdown of the open-source licenses you run into every day"
+
+[taxonomies]
+categories = ["Technology"]
+tags = ["open-source", "licensing", "software-licenses", "intellectual-property"]
 +++
 
 # 📜 Open Source Licensing 101: A No-Nonsense Guide for Devs & Startups

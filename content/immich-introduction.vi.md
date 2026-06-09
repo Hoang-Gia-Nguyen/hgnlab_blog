@@ -5,7 +5,7 @@ description = "Khám phá Immich, giải pháp sao lưu ảnh và video mã ngu�
 
 [taxonomies]
 categories = ["Technology", "Self-hosting"]
-tags = ["self-hosting", "homelab", "immich", "thay-the-google-photos", "sao-luu-anh-rieng-tu", "quan-ly-anh-ai", "quan-ly-anh-ma-nguon-mo"]
+tags = ["self-hosting", "homelab", "immich", "google-photos-alternative", "private-photo-backup", "ai-photo-management", "open-source-photo-management"]
 
 [extra]
 #cover.image = "images/self-hosting-immich-introduction-#cover.png"

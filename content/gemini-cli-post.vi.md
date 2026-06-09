@@ -4,7 +4,7 @@ date = 2025-07-01
 description = "Khám phá Gemini CLI, trợ lý AI mới cho lập trình viên. Công cụ AI dòng lệnh tương tác này giúp tối ưu hóa phát triển phần mềm, từ sinh mã tự động đến gỡ lỗi, tăng tốc quy trình làm việc và định hình tương lai của lập trình với AI."
 [taxonomies]
 categories = ["Technology", "AI"]
-tags = ["Gemini-CLI", "Trợ-lý-AI-cho-lập-trình-viên", "AI-tương-tác", "Phát-triển-phần-mềm-với-AI", "Công-cụ-AI-dòng-lệnh", "Hỗ-trợ-lập-trình-bằng-AI", "Tăng-tốc-phát-triển-phần-mềm", "AI-cho-dev", "Trợ-lý-code-AI", "Tự-động-hóa-lập-trình", "AI-trong-phát-triển-phần-mềm"]
+tags = ["Gemini-AI", "CLI-AI-Assistant", "AI-for-Developers", "Interactive-AI-Agent", "AI-in-Software-Engineering", "Developer-Tools-AI", "AI-Pair-Programmer", "Coding-Assistant-AI", "Software-Development-AI"]
 +++
 
 Bạn đã bao giờ cảm thấy dòng lệnh của mình hơi... cô đơn trên chặng đường lập trình, học hỏi? 
