@@ -4,12 +4,26 @@
     --color-foreground: #09090b;
     --color-accent: #ec4899;
     --color-muted: #f4f4f5;
+    --color-surface: #ffffff;
+    --color-border-dim: #f0f0f3;
+    scroll-behavior: smooth;
   }
   .dark {
     --color-border: #27272a;
     --color-foreground: #fafafa;
     --color-accent: #f472b6;
     --color-muted: #27272a;
+    --color-surface: #1c1c1e;
+    --color-border-dim: #2c2c2e;
+  }
+
+  body {
+    font-family: 'Noto Sans', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Be Vietnam Pro', 'Noto Sans', ui-sans-serif, system-ui, sans-serif;
+    font-weight: 600;
   }
 
   .page-card {
@@ -27,3 +41,9 @@
     color: var(--color-accent);
   }
 </style>
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
