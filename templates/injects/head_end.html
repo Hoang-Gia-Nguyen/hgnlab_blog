@@ -51,6 +51,56 @@
       z-index: 10;
     }
   }
+
+  /* ── Language switcher text label ── */
+  .btn-translations {
+    font-size: 0 !important;
+    background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+  .btn-translations::after {
+    content: attr(data-label);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--color-accent);
+    color: #fff;
+    line-height: 1.4;
+  }
+
+  /* ── Mobile post card padding ── */
+  @media (max-width: 639px) {
+    .page-card {
+      padding-top: 1.25rem !important;
+      padding-bottom: 1.25rem !important;
+    }
+  }
+
+  /* ── Mobile donation CTA slim banner ── */
+  @media (max-width: 639px) {
+    .donation-card {
+      padding: 0.75rem 1rem !important;
+      border-width: 1px !important;
+    }
+    .donation-card h2 {
+      font-size: 1rem !important;
+      padding-bottom: 0.25rem !important;
+    }
+    .donation-text {
+      display: none;
+    }
+    .donation-button {
+      margin-top: 0.25rem !important;
+      padding: 0.3rem 1rem !important;
+      font-size: 0.875rem !important;
+    }
+  }
 </style>
 
 @media (prefers-reduced-motion: reduce) {

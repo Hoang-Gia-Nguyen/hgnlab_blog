@@ -69,5 +69,22 @@
     });
   })();
 
+  // ─── Language Switcher Label ────────────────────────────────────────
+  var transBtn = document.querySelector('.btn-translations');
+  if (transBtn) {
+    var htmlLang = document.documentElement.getAttribute('lang') || '';
+    var alternates = document.querySelectorAll('link[rel="alternate"][hreflang]');
+    var targetLang = '';
+    for (var i = 0; i < alternates.length; i++) {
+      var hl = alternates[i].getAttribute('hreflang');
+      if (hl && hl !== htmlLang) {
+        targetLang = hl;
+        break;
+      }
+    }
+    var label = (htmlLang.slice(0,2) + ' / ' + targetLang.slice(0,2)).toUpperCase();
+    transBtn.setAttribute('data-label', label);
+  }
+
 })();
 </script>
