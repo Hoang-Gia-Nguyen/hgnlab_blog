@@ -6,8 +6,8 @@ description = "After RPM/TPM limits tightened, I was forced to re-evaluate how I
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/llm-usage-shift-cover.png"
-cover.alt = ""
+#cover.image = "images/llm-usage-shift-#cover.png"
+#cover.alt = ""
 +++
 
 # From “free riding” to intentional cost optimization

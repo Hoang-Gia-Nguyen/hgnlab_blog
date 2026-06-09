@@ -1,0 +1,29 @@
+<style>
+  :root {
+    --color-border: #e4e4e7;
+    --color-foreground: #09090b;
+    --color-accent: #ec4899;
+    --color-muted: #f4f4f5;
+  }
+  .dark {
+    --color-border: #27272a;
+    --color-foreground: #fafafa;
+    --color-accent: #f472b6;
+    --color-muted: #27272a;
+  }
+
+  .page-card {
+    border-bottom: 1px solid var(--color-border);
+  }
+  .page-card:last-of-type {
+    border-bottom: none;
+  }
+
+  .page-card-title {
+    color: var(--color-foreground);
+    transition: color 0.2s ease;
+  }
+  .page-card:hover .page-card-title {
+    color: var(--color-accent);
+  }
+</style>

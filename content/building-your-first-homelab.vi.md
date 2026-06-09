@@ -8,8 +8,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab", "docker", "adguard-home", "bao-mat-mang", "rieng-tu", "chan-quang-cao"]
 
 [extra]
-cover.image = "images/self-hosting-adguard-home-cover.png"
-cover.alt = "Homelab setup with AdGuard Home"
+#cover.image = "images/self-hosting-adguard-home-#cover.png"
+#cover.alt = "Homelab setup with AdGuard Home"
 +++
 
 Có thể bạn đã đọc [bài viết trước của mình về "self-hosting là gì và tại sao"](@/what-why-self-hosting.vi.md). Nhưng có một sự khác biệt lớn giữa việc hiểu một khái niệm và thực sự thử nó. Vậy, bạn nên bắt đầu từ đâu?

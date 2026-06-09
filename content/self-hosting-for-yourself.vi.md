@@ -8,8 +8,8 @@ categories = ["Technology"]
 tags = ["self-hosting", "hobby"]
 
 [extra]
-cover.image = "images/self-hosting-for-yourself-cover.png"
-cover.alt = "Self-Hosting General Banner"
+#cover.image = "images/self-hosting-for-yourself-#cover.png"
+#cover.alt = "Self-Hosting General Banner"
 +++
 
 # Tự Host: Trước Hết Là Cho Chính Bạn  

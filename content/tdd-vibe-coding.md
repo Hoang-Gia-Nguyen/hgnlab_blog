@@ -7,8 +7,8 @@ description = "How I’m Doing TDD with ‘Vibe Coding’ (Codex + Gemini + GitH
 categories = ["AI", "Technology"]
 tags = ["multi-agent", "agentic-ai"]
 [extra]
-cover.image = "images/tdd-vibe-coding-cover.png"
-cover.alt = "A cool vibe coding banner"
+#cover.image = "images/tdd-vibe-coding-#cover.png"
+#cover.alt = "A cool vibe coding banner"
 +++
 
 I’ve been experimenting with a multi-agent (free way, not something like CrewAI), _vibe-coding_ workflow that still stays faithful to **test-driven development (TDD)**. The cast:

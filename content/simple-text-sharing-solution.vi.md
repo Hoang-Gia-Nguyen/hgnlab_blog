@@ -8,8 +8,8 @@ categories = ["Self-hosting"]
 tags = ["self-hosting", "hobby"]
 
 [extra]
-cover.image = "images/clipboard-share-cover.png"
-cover.alt = "Clipboard Share"
+#cover.image = "images/clipboard-share-#cover.png"
+#cover.alt = "Clipboard Share"
 
 +++
 # Mở đầu

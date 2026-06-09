@@ -5,8 +5,8 @@ description = "Khám phá 5 lý do vì sao Docker là điểm khởi đầu hoà
 [taxonomies]
 categories = ["Self-hosting"]
 [extra]
-cover.image = "images/self-hosting-docker-cover.jpeg"
-cover.alt = "Docker and self-hosting logos"
+#cover.image = "images/self-hosting-docker-#cover.jpeg"
+#cover.alt = "Docker and self-hosting logos"
 +++
 
 Self-hosting nghe có vẻ hơi đáng sợ lúc ban đầu. Bạn phải quản lý ứng dụng, các dependency (thư viện phụ thuộc), và cả cấu hình hệ thống. Có quá nhiều thứ phải tiếp thu. Nhưng sẽ ra sao nếu mình nói với bạn có một công cụ có thể giúp cho hành trình này trở nên mượt mà hơn đáng kể? Công cụ đó chính là Docker.

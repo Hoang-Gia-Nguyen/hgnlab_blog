@@ -8,8 +8,8 @@ categories = ["Self-hosting"]
 tags = ["self-hosting", "hobby"]
 
 [extra]
-cover.image = "images/self-hosting-road-map-cover.jpg"
-cover.alt = "Self-Hosting Road Map Banner"
+#cover.image = "images/self-hosting-road-map-#cover.jpg"
+#cover.alt = "Self-Hosting Road Map Banner"
 
 +++
 

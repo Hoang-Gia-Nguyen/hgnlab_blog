@@ -8,8 +8,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab", "docker", "adguard-home", "network-security", "privacy", "ad-blocker"]
 
 [extra]
-cover.image = "images/self-hosting-adguard-home-cover.png"
-cover.alt = "A clean and modern desk setup representing a homelab."
+#cover.image = "images/self-hosting-adguard-home-#cover.png"
+#cover.alt = "A clean and modern desk setup representing a homelab."
 +++
 
 You might have even read my [previous post on the "what" and "why" of self-hosting](@/what-why-self-hosting.md). But there's a big difference between understanding a concept and living it. So, where do you actually start with **building your first homelab**?

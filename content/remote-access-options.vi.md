@@ -6,8 +6,8 @@ description = "Hướng dẫn tìm hiểu và lựa chọn giải pháp truy c�
 [taxonomies]
 categories = ["Self-hosting"]
 [extra]
-cover.image = "images/remote-access-cover.png"
-cover.alt = "Một người đang truy cập server từ laptop"
+#cover.image = "images/remote-access-#cover.png"
+#cover.alt = "Một người đang truy cập server từ laptop"
 +++
 
 Khi bạn tự host các dịch vụ, sớm muộn gì bạn cũng sẽ muốn truy cập chúng từ bên ngoài mạng nội bộ. Dù là chia sẻ album ảnh với gia đình, truy cập file cá nhân khi đang di chuyển, hay quản lý các dịch vụ từ xa, bạn cần một cách để kết nối với "homelab" của mình từ Internet. Bài viết này sẽ giới thiệu hai phương pháp phổ biến để làm điều đó: reverse proxy và zero-trust tunnel.

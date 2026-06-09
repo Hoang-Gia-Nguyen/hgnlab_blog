@@ -9,8 +9,8 @@ categories = ["Technology", "Self-hosting", "AI"]
 tags = ["local-llm", "homelab", "private-ai", "self-hosted-ai", "ollama", "lm-studio", "ai-on-personal-hardware", "offline-ai"]
 
 [extra]
-cover.image = "images/local-llm-cover.png"
-cover.alt = "Running Large Language Models (LLMs) Locally Cover"
+#cover.image = "images/local-llm-#cover.png"
+#cover.alt = "Running Large Language Models (LLMs) Locally Cover"
 +++
 
 The world of Artificial Intelligence is rapidly evolving, and Large Language Models (LLMs) like GPT-3 and its open-source brethren are at the forefront of this revolution. For a long time, accessing and utilizing these powerful tools meant relying on cloud-based services, sending your data to remote servers. However, the landscape is shifting. Today, it's increasingly feasible – and incredibly empowering – to run **LLMs locally** right on your own hardware. Join me on this journey as I explore the exciting possibilities of **local AI**, powered by my trusty Mac Mini M4.

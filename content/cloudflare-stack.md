@@ -8,8 +8,8 @@ categories = ["Self-hosting"]
 tags = ["cloudflare", "self-hosting", "security"]
 
 [extra]
-cover.image = "images/cloudflare-stack-cover.png"
-cover.alt = "Cloudflare Stack Illustration"
+#cover.image = "images/cloudflare-stack-#cover.png"
+#cover.alt = "Cloudflare Stack Illustration"
 +++
 
 If you're self-hosting in 2026, especially from a home connection, you've likely hit the "ISP Wall." Whether it's CGNAT blocking your ports or the lack of a static IP, getting your services online safely used to be a headache.

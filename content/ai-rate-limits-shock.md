@@ -5,8 +5,8 @@ description = "Why free and low-tier AI API limits have tightened, how it impact
 [taxonomies]
 categories = ["AI"]
 [extra]
-cover.image = "images/cover-ai-limits.png"
-cover.alt = "Graph showing shrinking free-tier API limits"
+#cover.image = "images/cover-ai-limits.png"
+#cover.alt = "Graph showing shrinking free-tier API limits"
 +++
 
 Over the last one to two years, most major AI providers have significantly tightened their free or low-tier API limits — slashing requests-per-minute (RPM) and requests-per-day (RPD), or removing free API usage entirely. If you mostly use web UIs, you may barely notice. But if you automate workflows or build small apps on free tiers, the change feels… savage.

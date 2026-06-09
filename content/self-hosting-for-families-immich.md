@@ -10,8 +10,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "family", "photos", "videos", "immich", "private-photo-sharing", "google-photos-alternative-for-families", "home-photo-server"]
 
 [extra]
-cover.image = "images/self-hosting-immich-introduction-cover2.png"
-cover.alt = "Immich for Families"
+#cover.image = "images/self-hosting-immich-introduction-cover2.png"
+#cover.alt = "Immich for Families"
 +++
 
 ## Why Self-Hosting Matters for Families: Private Photo Storage

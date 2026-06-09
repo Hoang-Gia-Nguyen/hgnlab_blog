@@ -6,8 +6,8 @@ description = "A simple explanation of metadata in computer files and media, its
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/metadata-cover.png"
-cover.alt = "Metadata Introduction"
+#cover.image = "images/metadata-#cover.png"
+#cover.alt = "Metadata Introduction"
 +++
 
 In the digital world, we're surrounded by data. But have you ever heard of "metadata"? It's the data about your data, and it's everywhere, from your family photos to your work documents. Let's dive into what metadata is, why it's useful, and why you might sometimes want to get rid of it.

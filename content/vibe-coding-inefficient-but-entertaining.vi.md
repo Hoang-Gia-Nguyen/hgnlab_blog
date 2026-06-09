@@ -6,8 +6,8 @@ description = "Một câu chuyện vui về 'Vibe Coding' được lấy cảm h
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/vibe-cover.jpeg"
-cover.alt = "VIBE Introduction"
+#cover.image = "images/vibe-#cover.jpeg"
+#cover.alt = "VIBE Introduction"
 +++
 
 Có một giai thoại khá hay ho được lan truyền trên mạng. Chuyện kể rằng tại Bill Gates đã "ngây thơ" hỏi rằng "VIBE" trong cụm từ "Vibe Coding" là viết tắt của cái gì.

@@ -6,8 +6,8 @@ description = "A humorous take on 'Vibe Coding' inspired by a legendary (and may
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/vibe-cover.jpeg"
-cover.alt = "VIBE Introduction"
+#cover.image = "images/vibe-#cover.jpeg"
+#cover.alt = "VIBE Introduction"
 +++
 
 There's a fantastic anecdote floating around the internet. The story goes that Bill Gates "innocently" asked what "VIBE" stood for in the term "Vibe Coding."

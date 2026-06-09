@@ -7,8 +7,8 @@ description = "CPU, RAM hay ổ cứng chỉ là bề nổi. Những thử thác
 categories = ["Technology"]
 tags = ["Hardware", "Linux", "Jetson Nano", "Self-hosting", "Troubleshooting"]
 [extra]
-cover.image = "images/hardware-struggles-cover.png"
-cover.alt = "Một góc làm việc với Jetson Nano và những dòng code trên màn hình."
+#cover.image = "images/hardware-struggles-#cover.png"
+#cover.alt = "Một góc làm việc với Jetson Nano và những dòng code trên màn hình."
 +++
 
 Khi nhắc đến việc nâng cấp server hay máy tính, mình thấy mọi người thường chỉ xoay quanh "Bộ ba quyền lực": RAM bao nhiêu? CPU mấy nhân? SSD nhanh cỡ nào?

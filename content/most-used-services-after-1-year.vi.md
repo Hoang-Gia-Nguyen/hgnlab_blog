@@ -9,8 +9,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["homelab", "self-hosted", "jellyfin", "immich", "vaultwarden", "ntfy", "uptime-kuma", "restic", "backup", "media-server"]
 
 [extra]
-cover.image = "images/homelab-one-year-cover.png"
-cover.alt = "Một năm homelab — những thứ mình thực sự dùng"
+#cover.image = "images/homelab-one-year-#cover.png"
+#cover.alt = "Một năm homelab — những thứ mình thực sự dùng"
 +++
 
 

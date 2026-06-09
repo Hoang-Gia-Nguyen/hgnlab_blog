@@ -10,8 +10,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "family", "photos", "videos", "immich", "chia-se-anh-gia-dinh-rieng-tu", "thay-the-google-photos-cho-gia-dinh", "server-anh-gia-dinh"]
 
 [extra]
-cover.image = "images/self-hosting-immich-introduction-cover2.png"
-cover.alt = "Immich cho Gia Đình"
+#cover.image = "images/self-hosting-immich-introduction-cover2.png"
+#cover.alt = "Immich cho Gia Đình"
 +++
 
 ## Tại Sao Tự Lưu Trữ Quan Trọng Cho Gia Đình: Giải pháp lưu trữ ảnh riêng tư

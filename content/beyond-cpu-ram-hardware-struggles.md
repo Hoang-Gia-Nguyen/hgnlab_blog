@@ -7,8 +7,8 @@ description = "CPU, RAM, and Disk are the basics. The real 'boss fights' of self
 categories = ["Technology"]
 tags = ["Hardware", "Linux", "Jetson Nano", "Self-hosting", "Troubleshooting"]
 [extra]
-cover.image = "images/hardware-struggles-cover.png"
-cover.alt = "A collection of hardware components, a Jetson Nano, and lines of terminal code."
+#cover.image = "images/hardware-struggles-#cover.png"
+#cover.alt = "A collection of hardware components, a Jetson Nano, and lines of terminal code."
 +++
 
 When we talk about upgrading a server or a PC, the conversation usually revolves around the "Big Three": How much RAM? How many CPU cores? How fast is the SSD?

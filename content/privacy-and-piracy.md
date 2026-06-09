@@ -6,8 +6,8 @@ description = "We all champion digital privacy, but let's talk about the elephan
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/technology-vibe-coding-cover.png"
-cover.alt = "A person in a hoodie coding in a dark room, representing the privacy and piracy theme."
+#cover.image = "images/technology-vibe-coding-#cover.png"
+#cover.alt = "A person in a hoodie coding in a dark room, representing the privacy and piracy theme."
 +++
 
 In the tech community, "privacy is the new black." We champion tools and techniques to shield ourselves from the prying eyes of Big Tech. We run VPNs, block trackers with Pi-hole, self-host our data, and preach the gospel of digital sovereignty. It feels good, right? It feels responsible.

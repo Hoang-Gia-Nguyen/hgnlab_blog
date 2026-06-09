@@ -9,8 +9,8 @@ categories = ["Self-hosting"]
 tags = ["backup", "data-protection", "homelab", "data-safety", "offsite-backup"]
 
 [extra]
-cover.image = "images/self-hosting-3-2-1-backup-cover.png"
-cover.alt = "Self-Hosting 3-2-1 Backup Strategy Cover"
+#cover.image = "images/self-hosting-3-2-1-backup-#cover.png"
+#cover.alt = "Self-Hosting 3-2-1 Backup Strategy Cover"
 +++
 
 ## Why Backups Are Crucial (Especially for Self-Hosters and Data Protection!)

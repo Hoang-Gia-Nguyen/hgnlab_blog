@@ -6,8 +6,8 @@ description = "Khám phá Lingarr, công cụ tự động dịch phụ đề b�
 [taxonomies]
 categories = ["Self-hosting"]
 [extra]
-cover.image = "images/lingarr-cover.png"
-cover.alt = "Lingarr Introduction"
+#cover.image = "images/lingarr-#cover.png"
+#cover.alt = "Lingarr Introduction"
 +++
 
 Chắc hẳn anh em nào mê phim ảnh và tự host kho media riêng cũng từng gặp cảnh này: bạn có một bộ phim hay series mới coóng, nhưng tìm mỏi mắt không ra phụ đề tiếng Việt. Ví dụ như mình rất hào hứng muốn xem "Secret of Silent Witch", nhưng ngó qua OpenSubtitles thì chỉ có phụ đề tiếng Đức. Trong khi mình chỉ đọc được tiếng Anh hoặc tiếng Việt, thế là đành ngậm ngùi. Đây là một vấn đề khá phổ biến, đặc biệt với các nội dung mới hoặc không quá nổi tiếng.

@@ -9,8 +9,8 @@ categories = ["Technology", "Self-hosting", "AI"]
 tags = ["local-llm", "homelab", "ai-rieng-tu", "ai-tu-host", "ollama", "lm-studio", "ai-tren-phan-cung-ca-nhan", "ai-offline"]
 
 [extra]
-cover.image = "images/local-llm-cover.png"
-cover.alt = "Running Large Language Models (LLMs) Locally Cover"
+#cover.image = "images/local-llm-#cover.png"
+#cover.alt = "Running Large Language Models (LLMs) Locally Cover"
 +++
 
 Thế giới Trí tuệ Nhân tạo đang phát triển cực nhanh, và các Mô hình Ngôn ngữ Lớn (LLMs) như GPT-3 cùng những người anh em mã nguồn mở của nó đang dẫn đầu cuộc cách mạng này. Từ trước đến nay, để tiếp cận và sử dụng những công cụ mạnh mẽ này, mình thường phải dựa vào các dịch vụ đám mây, gửi dữ liệu của mình đến các máy chủ từ xa. Tuy nhiên, mọi thứ đang thay đổi. Giờ đây, việc **chạy LLMs tại nhà** ngay trên phần cứng của riêng bạn ngày càng khả thi – và mang lại cảm giác tự chủ đáng kinh ngạc. Hãy cùng mình khám phá những khả năng thú vị của **AI cục bộ**, được hỗ trợ bởi chiếc Mac Mini M4 của mình nhé.

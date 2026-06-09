@@ -9,8 +9,8 @@ categories = ["Self-hosting"]
 tags = ["backup", "data-protection", "homelab", "sao-luu-du-lieu", "an-toan-du-lieu"]
 
 [extra]
-cover.image = "images/self-hosting-3-2-1-backup-cover.png"
-cover.alt = "Self-Hosting 3-2-1 Backup Strategy Cover"
+#cover.image = "images/self-hosting-3-2-1-backup-#cover.png"
+#cover.alt = "Self-Hosting 3-2-1 Backup Strategy Cover"
 +++
 
 ## Tại sao sao lưu lại quan trọng (đặc biệt với dân tự host và bảo vệ dữ liệu!)

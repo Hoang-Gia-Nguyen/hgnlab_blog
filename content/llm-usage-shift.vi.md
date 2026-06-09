@@ -6,8 +6,8 @@ description = "Sau khi bị siết RPM/TPM, mình buộc phải nhìn lại toà
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/llm-usage-shift-cover.png"
-cover.alt = ""
+#cover.image = "images/llm-usage-shift-#cover.png"
+#cover.alt = ""
 +++
 
 # Từ “xài chùa” sang “tối ưu chi phí có chủ đích”

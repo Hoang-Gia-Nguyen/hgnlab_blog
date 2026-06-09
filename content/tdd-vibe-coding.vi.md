@@ -7,8 +7,8 @@ description = "Cùng mình khám phá cách mình kết hợp TDD với 'Vibe Co
 categories = ["AI", "Technology"]
 tags = ["multi-agent", "agentic-ai"]
 [extra]
-cover.image = "images/tdd-vibe-coding-cover.png"
-cover.alt = "A cool vibe coding banner"
+#cover.image = "images/tdd-vibe-coding-#cover.png"
+#cover.alt = "A cool vibe coding banner"
 +++
 
 Mình đã thử nghiệm một quy trình làm việc "vibe-coding" multi-agent (theo cách miễn phí, không dùng các công cụ như CrewAI) mà vẫn giữ vững nguyên tắc **phát triển hướng test (TDD)**. Dưới đây là các "diễn viên" chính:

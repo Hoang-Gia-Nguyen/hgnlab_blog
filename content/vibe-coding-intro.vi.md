@@ -7,8 +7,8 @@ authors = ["HGN"]
 categories = ["Technology", "AI"]
 tags = ["vibe-coding", "lap-trinh-theo-cam-hung", "phat-trien-phan-mem-voi-ai", "lap-trinh-truc-quan", "quy-trinh-lam-viec-lap-trinh-vien", "tao-mau-nhanh-bang-ai", "ai-va-sang-tao-trong-lap-trinh"]
 [extra]
-cover.image = "images/technology-vibe-coding-cover.png"
-cover.alt = "Vibe Coding Cover Image"
+#cover.image = "images/technology-vibe-coding-#cover.png"
+#cover.alt = "Vibe Coding Cover Image"
 +++
 
 Có lẽ gần đây bạn đã nghe nhiều về thuật ngữ "**Vibe Coding**". Nó xuất hiện trong các cộng đồng lập trình viên, trên mạng xã hội, và trong những cuộc thảo luận nhỏ tại nơi làm việc. Nhưng chính xác thì nó là gì? Đây có phải là một phương pháp mới? Hay chỉ là một xu hướng nhất thời?

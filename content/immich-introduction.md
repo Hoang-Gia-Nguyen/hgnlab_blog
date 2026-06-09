@@ -8,8 +8,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab", "immich", "google-photos-alternative", "private-photo-backup", "ai-photo-management", "open-source-photo-management"]
 
 [extra]
-cover.image = "images/self-hosting-immich-introduction-cover.png"
-cover.alt = "Immich Introduction"
+#cover.image = "images/self-hosting-immich-introduction-#cover.png"
+#cover.alt = "Immich Introduction"
 +++
 
 ## What is Immich? Your Self-Hosted Photo Solution

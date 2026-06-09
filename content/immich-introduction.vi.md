@@ -8,8 +8,8 @@ categories = ["Technology", "Self-hosting"]
 tags = ["self-hosting", "homelab", "immich", "thay-the-google-photos", "sao-luu-anh-rieng-tu", "quan-ly-anh-ai", "quan-ly-anh-ma-nguon-mo"]
 
 [extra]
-cover.image = "images/self-hosting-immich-introduction-cover.png"
-cover.alt = "Immich Introduction Cover Image"
+#cover.image = "images/self-hosting-immich-introduction-#cover.png"
+#cover.alt = "Immich Introduction Cover Image"
 +++
 
 ## Immich là gì? Giải pháp ảnh tự host của bạn

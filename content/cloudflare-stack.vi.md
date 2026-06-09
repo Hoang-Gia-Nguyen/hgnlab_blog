@@ -8,8 +8,8 @@ categories = ["Self-hosting"]
 tags = ["cloudflare", "self-hosting", "security"]
 
 [extra]
-cover.image = "images/cloudflare-stack-cover.png"
-cover.alt = "Cloudflare Stack Illustration"
+#cover.image = "images/cloudflare-stack-#cover.png"
+#cover.alt = "Cloudflare Stack Illustration"
 +++
 
 Nếu bạn đang tự host dịch vụ tại nhà trong năm 2026, chắc hẳn bạn đã từng va phải "bức tường" của nhà mạng. Nào là CGNAT không cho mở port, nào là không có IP tĩnh... Trước đây, việc đưa một dịch vụ lên internet an toàn là cả một vấn đề đau đầu.

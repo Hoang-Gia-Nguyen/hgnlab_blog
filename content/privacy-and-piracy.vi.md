@@ -6,8 +6,8 @@ description = "Tụi mình luôn đề cao sự riêng tư trên mạng, nhưng 
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/technology-vibe-coding-cover.png"
-cover.alt = "Một người mặc áo hoodie đang code trong phòng tối, tượng trưng cho chủ đề riêng tư và vi phạm bản quyền."
+#cover.image = "images/technology-vibe-coding-#cover.png"
+#cover.alt = "Một người mặc áo hoodie đang code trong phòng tối, tượng trưng cho chủ đề riêng tư và vi phạm bản quyền."
 +++
 
 Trong cộng đồng công nghệ, "riêng tư là chân ái." Tụi mình cổ vũ các công cụ và kỹ thuật để tự bảo vệ khỏi con mắt tò mò của các ông lớn công nghệ. Tụi mình dùng VPN, chặn quảng cáo với Pi-hole, tự host dữ liệu, và lan tỏa phúc âm về chủ quyền kỹ thuật số. Cảm giác thật oách, đúng không? Rất có trách nhiệm.

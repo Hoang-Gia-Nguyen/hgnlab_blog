@@ -6,8 +6,8 @@ description = "Exploring the pros and cons of free domains and why they are a go
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/free-domain-cover.png"
-cover.alt = "A signpost with different domain names"
+#cover.image = "images/free-domain-#cover.png"
+#cover.alt = "A signpost with different domain names"
 +++
 
 In the vast world of the internet, your domain name is your digital address. It's how people find you, and it's a core part of your online identity. When you're just starting, the allure of a "free" domain can be incredibly tempting. Services that offer domains at no cost seem like the perfect way to get your idea online without any financial commitment. But is it too good to be true? Let's dive into the pros and cons.

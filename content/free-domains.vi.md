@@ -6,8 +6,8 @@ description = "Cùng tìm hiểu về ưu và nhược điểm của tên miền
 [taxonomies]
 categories = ["Technology"]
 [extra]
-cover.image = "images/free-domain-cover.png"
-cover.alt = "Một biển chỉ dẫn với các tên miền khác nhau"
+#cover.image = "images/free-domain-#cover.png"
+#cover.alt = "Một biển chỉ dẫn với các tên miền khác nhau"
 +++
 
 Trong thế giới internet rộng lớn, tên miền chính là địa chỉ số của bạn. Đó là cách mọi người tìm thấy bạn và là một phần cốt lõi trong nhận diện trực tuyến của bạn. Khi mới bắt đầu, sức hấp dẫn của một tên miền "miễn phí" có thể cực kỳ lớn. Các dịch vụ cung cấp tên miền mà không tốn bất kỳ chi phí nào có vẻ là cách hoàn hảo để đưa ý tưởng của bạn lên mạng mà không cần cam kết tài chính. Nhưng liệu nó có quá tốt để trở thành sự thật? Hãy cùng mình tìm hiểu ưu và nhược điểm nhé.

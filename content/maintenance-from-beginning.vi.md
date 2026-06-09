@@ -6,8 +6,8 @@ slug = "self-host-maintenance-tu-ngay-dau"
 draft = false
 
 [extra]
-cover.image = "images/maintenance-from-beginning-cover.png"
-cover.alt = "Self-Hosting Isn’t Deployment — Maintenance Is the Real Game"
+#cover.image = "images/maintenance-from-beginning-#cover.png"
+#cover.alt = "Self-Hosting Isn’t Deployment — Maintenance Is the Real Game"
 
 [taxonomies]
 tags = ["self-host", "devops", "maintenance", "homelab"]

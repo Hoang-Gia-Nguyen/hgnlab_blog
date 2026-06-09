@@ -6,8 +6,8 @@ description = "A guide to understanding and choosing the right remote access sol
 [taxonomies]
 categories = ["Self-hosting"]
 [extra]
-cover.image = "images/remote-access-cover.png"
-cover.alt = "A person accessing a server from a laptop"
+#cover.image = "images/remote-access-#cover.png"
+#cover.alt = "A person accessing a server from a laptop"
 +++
 
 When you're self-hosting, you'll eventually want to access your services from outside your home network. Whether it's sharing a photo gallery with family, accessing your files on the go, or managing your services remotely, you need a way to connect to your home lab from the internet. This post will explore two popular methods for achieving this: reverse proxies and zero-trust tunnels.

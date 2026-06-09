@@ -5,8 +5,8 @@ description = "Discover 5 reasons why Docker is the perfect starting point for a
 [taxonomies]
 categories = ["Self-hosting"]
 [extra]
-cover.image = "images/self-hosting-docker-cover.jpeg"
-cover.alt = "Docker and self-hosting logos"
+#cover.image = "images/self-hosting-docker-#cover.jpeg"
+#cover.alt = "Docker and self-hosting logos"
 +++
 
 Self-hosting can seem daunting at first. You have to manage applications, dependencies, and system configurations. It's a lot to take in. But what if I told you there's a tool that can make this journey significantly smoother? That tool is Docker.

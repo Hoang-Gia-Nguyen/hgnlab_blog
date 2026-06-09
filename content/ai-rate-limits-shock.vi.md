@@ -6,8 +6,8 @@ description = "Tại sao các nhà cung cấp AI lại siết chặt giới hạ
 [taxonomies]
 categories = ["AI"]
 [extra]
-cover.image = "images/cover-ai-limits.png"
-cover.alt = "Biểu đồ hiển thị giới hạn free-tier API ngày càng co lại"
+#cover.image = "images/cover-ai-limits.png"
+#cover.alt = "Biểu đồ hiển thị giới hạn free-tier API ngày càng co lại"
 +++
 
 Trong năm vừa qua, gần như tất cả các nhà cung cấp AI lớn đều siết chặt giới hạn API miễn phí hoặc low-tier — cắt giảm drastically requests-per-minute (RPM) và requests-per-day (RPD), hoặc thậm chí loại bỏ hoàn toàn quyền truy cập API miễn phí. Nếu mình chỉ dùng web UI để chat, thì có thể mình chẳng nhận ra gì. Nhưng nếu mình viết automation scripts, build mini apps, hay run các personal integrations trên free tier, thì... ơi là ơi, cảm giác tổn thương lắm.
