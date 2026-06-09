@@ -2,38 +2,66 @@
 {%- set hellip = m_i18n::tr(key=`hellip`, lk=g_lang_k, d=g_trans_d) %}
 {%- for page in paginator.pages | default(value=(section.pages | default(value=term.pages))) %}
 <article class="page-card relative py-8 first-of-type:mt-0 last-of-type:mb-0">
-  <h2 class="!my-0 font-bold">
-    <a class="page-card-title no-underline" href="{{ m_url::rel(there=page.permalink, here=g_here, base=g_base) }}">
-      {{ page.title }}
+  {%- if page.extra.cover.image is defined and page.extra.cover.image %}
+    {%- set cover_url = get_url(path=page.extra.cover.image, cachebust=true) %}
+  {%- else %}
+    {%- set cover_url = "" %}
+  {%- endif %}
+  <div class="flex gap-5 items-start">
+    {%- if cover_url %}
+    <a href="{{ m_url::rel(there=page.permalink, here=g_here, base=g_base) }}" class="shrink-0 not-prose mt-1">
+      <img class="my-0 w-28 h-20 rounded-md object-cover border border-[var(--color-border-dim)]"
+        src="{{ cover_url }}" alt="" loading="lazy" />
     </a>
-  </h2>
-  {%- if not page.summary %}
-  {%- set use_summary = false %}
-  {%- elif not page.description %}
-  {%- set use_summary = true %}
-  {%- elif page.extra.page_summary_on_paginator is defined %}
-  {%- set use_summary = page.extra.page_summary_on_paginator %}
-  {%- elif section.extra.page_summary_on_paginator is defined %}
-  {%- set use_summary = section.extra.page_summary_on_paginator %}
-  {%- elif config.extra.page_summary_on_paginator is defined %}
-  {%- set use_summary = config.extra.page_summary_on_paginator %}
-  {%- else %}
-  {%- set use_summary = false %}
-  {%- endif %}
-  {%- if use_summary %}
-  <div class="not-prose mt-2 text-sm opacity-80">
-    {{ page.summary | striptags | trim_end | trim_end_matches(pat=`&hellip;`) | trim_end_matches(pat=`.`) | safe }}{{
-    hellip | safe }}
-  </div>
-  {%- elif page.description %}
-  <div class="not-prose mt-2 text-sm opacity-80">
-    <p class="!my-0">{{ page.description }}</p>
-  </div>
-  {%- else %}
-  <div class="mt-2"></div>
-  {%- endif %}
+    {%- endif %}
+    <div class="min-w-0 flex-1">
+      <h2 class="!my-0 font-bold">
+        <a class="page-card-title no-underline" href="{{ m_url::rel(there=page.permalink, here=g_here, base=g_base) }}">
+          {{ page.title }}
+        </a>
+      </h2>
+      {%- if page.taxonomies.categories %}
+      <div class="not-prose mt-1.5 flex flex-wrap gap-1.5">
+        {%- for category in page.taxonomies.categories %}
+        <a href="{{ get_taxonomy_url(kind='categories', name=category, lang=lang) }}"
+          class="no-underline text-xs font-medium px-2 py-0.5 rounded-full
+            bg-[var(--color-accent)]/10 text-[var(--color-accent)]
+            dark:bg-[var(--color-accent)]/20 dark:text-[var(--color-accent)]
+            hover:bg-[var(--color-accent)] hover:text-white
+            dark:hover:bg-[var(--color-accent)] dark:hover:text-white
+            transition-colors duration-150">{{ category }}</a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+      {%- if not page.summary %}
+      {%- set use_summary = false %}
+      {%- elif not page.description %}
+      {%- set use_summary = true %}
+      {%- elif page.extra.page_summary_on_paginator is defined %}
+      {%- set use_summary = page.extra.page_summary_on_paginator %}
+      {%- elif section.extra.page_summary_on_paginator is defined %}
+      {%- set use_summary = section.extra.page_summary_on_paginator %}
+      {%- elif config.extra.page_summary_on_paginator is defined %}
+      {%- set use_summary = config.extra.page_summary_on_paginator %}
+      {%- else %}
+      {%- set use_summary = false %}
+      {%- endif %}
+      {%- if use_summary %}
+      <div class="not-prose mt-2 text-sm opacity-80">
+        {{ page.summary | striptags | trim_end | trim_end_matches(pat=`&hellip;`) | trim_end_matches(pat=`.`) | safe }}{{
+        hellip | safe }}
+      </div>
+      {%- elif page.description %}
+      <div class="not-prose mt-2 text-sm opacity-80">
+        <p class="!my-0">{{ page.description }}</p>
+      </div>
+      {%- else %}
+      <div class="mt-2"></div>
+      {%- endif %}
 
-  {% include "partials/page_info.html" %}
+      {% include "partials/page_info.html" %}
+    </div>
+  </div>
 </article>
 {%- endfor %}
 
