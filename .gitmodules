@@ -1,6 +1,7 @@
 [submodule "themes/linkita"]
 	path = themes/linkita
-	url = https://codeberg.org/salif/linkita.git
+	url = https://github.com/salif/linkita.git
+	branch = tera1
 [submodule "themes/nivis"]
 	path = themes/nivis
 	url = https://github.com/Resorie/zola-theme-nivis.git
